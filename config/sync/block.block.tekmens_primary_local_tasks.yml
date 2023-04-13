@@ -1,0 +1,22 @@
+uuid: 43899a9c-26a6-4af4-a46a-784523f83609
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tekmens
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: tekmens_primary_local_tasks
+theme: tekmens
+region: content
+weight: -16
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

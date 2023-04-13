@@ -1,0 +1,22 @@
+uuid: e88c3cc4-84c5-4fa3-a9fa-e8b3638ce3bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: brand_pattern
+label: 'Brand Pattern'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'brand/[term:name]'
+selection_criteria:
+  8822a215-33b7-4175-be41-6e2e9f98f0fa:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 8822a215-33b7-4175-be41-6e2e9f98f0fa
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      brand: brand
+selection_logic: and
+weight: -5
+relationships: {  }

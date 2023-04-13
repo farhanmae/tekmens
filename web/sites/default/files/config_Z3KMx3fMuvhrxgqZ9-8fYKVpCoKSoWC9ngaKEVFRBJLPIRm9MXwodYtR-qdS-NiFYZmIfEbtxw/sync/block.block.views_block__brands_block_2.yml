@@ -1,0 +1,33 @@
+uuid: a6b1cf59-4d09-4e51-b248-f254b3a6300a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.brands
+  module:
+    - node
+    - views
+  theme:
+    - tekmens
+id: views_block__brands_block_2
+theme: tekmens
+region: content
+weight: -8
+provider: null
+plugin: 'views_block:brands-block_2'
+settings:
+  id: 'views_block:brands-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      sector: sector

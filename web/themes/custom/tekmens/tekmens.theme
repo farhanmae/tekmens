@@ -1,0 +1,14 @@
+<?php
+    function tekmens_preprocess_html(&$variables) {
+        // Add page-node-id class to body
+        if ($node = \Drupal::request()->attributes->get('node')) {
+            $variables['attributes']['class'][] = 'page-node-' . $node->id();
+        }
+
+        // Add vocabulary name as class to the body
+        if (\Drupal::routeMatch()->getRouteName() == 'entity.taxonomy_term.canonical') {
+            // load the term entity and get the data from there
+            $term = \Drupal::routeMatch()->getParameter('taxonomy_term');
+            $variables['attributes']['class'][] = 'page-' . $term->bundle();
+        }
+    }

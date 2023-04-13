@@ -1,0 +1,90 @@
+@import 'variables';
+
+// Brands
+.page-brand{
+    #page-content{
+        #block-tekmens-page-title{
+            background-color: $brand-dark-gray;
+            height: 105px;
+            padding: 0;
+            .page-title{
+                display: none;
+            }
+        }
+        #block-tekmens-content{
+            .view-display-id-page_1{
+                .view-header{
+                    margin-bottom: 30px;
+                    .brand{
+                        display: flex;
+                        align-items: center;
+                        border-bottom: 1px solid $border;
+                        padding-bottom: 15px;
+                        margin-bottom: 30px;
+                        .brand-logo{
+                            height: 150px;
+                            width: 150px;
+                            margin-right: 15px;
+                        }
+                        .page-title{
+                            font-weight: 600;
+                            color: $brand-dark-gray;
+                        }
+                    }
+                    .field--name-description{
+                        color: $text-color;
+                    }
+                }
+                .view-content{
+                    display: none;
+                }
+            }
+        }
+        .block-views{
+            h2{
+                text-align: center;
+                font-size: 42px;
+                font-weight: 700;
+                color: $brand-pink;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+.page-category{
+    .menu.hierarchical-taxonomy-menu.block-taxonomymenu__menu::before{
+        content:"";
+    }
+    #page-content{
+        // #block-tekmens-page-title{
+        //     background-color: $brand-dark-gray;
+        //     height: 105px;
+        //     padding: 0;
+        //     .page-title{
+        //         display: none;
+        //     }
+        // }
+        #block-tekmens-content{
+            .view-display-id-page_1{
+                .view-header{
+                    margin-bottom: 30px;
+                    .field--name-description{
+                        color: $text-color;
+                    }
+                }
+                .view-content{
+                    display: none;
+                }
+            }
+        }
+        .block-views{
+            h2{
+                text-align: center;
+                font-size: 42px;
+                font-weight: 700;
+                color: $brand-pink;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

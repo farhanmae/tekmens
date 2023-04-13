@@ -1,0 +1,21 @@
+uuid: f4567c7b-b365-475f-a1bb-25e398b40480
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_application
+    - node.type.product
+  module:
+    - text
+id: node.product.field_application
+field_name: field_application
+entity_type: node
+bundle: product
+label: Application
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,615 @@
+@import 'variables';
+
+#page-content{
+    #block-tekmens-content{
+        // width: 70%;
+        width: 100%;
+        margin: 40px auto;
+        .field--name-body{
+            h2{
+                color: $brand-pink;
+                border-bottom: 1px solid $border;
+                padding-bottom: 10px;
+                margin-bottom: 15px;
+                margin-top: 30px;
+                font-weight: bolder;
+                font-size: 2rem;
+                clear: both;
+                span{
+                    color: $brand-pink !important;
+                    font-weight: bolder !important;
+                    font-size: 2rem !important;
+                }
+                a{
+                    text-decoration: none;
+                    color: $brand-pink !important;
+                    transition: $transition;
+                    &:hover{
+                        opacity: .8;
+                    }
+                }
+            }
+            h3{
+                clear: both;
+                color: $brand-pink;
+                border-bottom: 1px solid $border;
+                padding-bottom: 10px;
+                margin-bottom: 15px;
+                margin-top: 30px;
+                font-weight: bolder;
+                font-size: 1.75rem;
+                span{
+                    color: $brand-pink !important;
+                    font-weight: bolder !important;
+                    font-size: 1.75rem !important;
+                }
+                a{
+                    text-decoration: none;
+                    color: $brand-pink !important;
+                    transition: $transition;
+                    &:hover{
+                        opacity: .8;
+                    }
+                }
+            }
+            h4{
+                clear: both;
+                margin-bottom: 15px;
+                margin-top: 30px;
+                font-weight: bolder;
+                font-size: 1.5rem;
+                span{
+                    font-size: 1.5rem !important;
+                    font-weight: bolder !important;
+                }
+                a{
+                    text-decoration: none;
+                    &:hover{
+                        opacity: .8;
+                    }
+                }
+            }
+            h5{
+                clear: both;
+                margin-bottom: 15px;
+                margin-top: 30px;
+                font-weight: bolder;
+                font-size: 1.25rem;
+                span{
+                    font-size: 1.25rem !important;
+                    font-weight: bolder !important;
+                }
+                a{
+                    text-decoration: none;
+                    &:hover{
+                        opacity: .8;
+                    }
+                }
+            }
+            h6{
+                clear: both;
+                margin-bottom: 15px;
+                margin-top: 30px;
+                font-size: 1.25rem;
+                span{
+                    font-size: 1.25rem !important;
+                }
+                a{
+                    text-decoration: none;
+                    &:hover{
+                        opacity: .8;
+                    }
+                }
+            }
+            p,
+            span{
+                color: $text-color !important;
+                font-size: 16px !important;
+                text-align: left !important;
+                a{
+                    color: $text-color;
+                    text-decoration: none;
+                    transition: $transition;
+                    &:hover{
+                        color: $brand-dark-gray;
+                    }
+                }
+            }
+            ul{
+                padding-left: 0;
+                li{
+                    list-style: none;
+                    color: $text-color;
+                    a{
+                        color: $text-color;
+                        text-decoration: none;
+                        transition: $transition;
+                        &:hover{
+                            color: $brand-dark-gray;
+                        }
+                    }
+                    &::before{
+                        content: "\F2D2";
+                        color: $text-color;
+                        font-family: $icon;
+                        margin-right: 10px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .caption-img{
+                img{
+                    margin-bottom: 0;
+                    width: 100%;
+                    margin: 15px auto 0;
+                }
+                figcaption{
+                    text-align: center;
+                    font-size: 16px;
+                    color: $brand-gray;
+                }
+            }
+            p{
+                img{
+                    width: 100%;
+                }
+            }
+            img{
+                max-width: 100%;
+                height: auto;
+                margin: 15px 0;
+                &.align-left{
+                    width: 100%;
+                    margin-right: 0px;
+                }
+                &.align-right{
+                    width: 100%;
+                    margin-left: 0px;
+                }
+                &.align-center{
+                    width: 100%;
+                    margin: 15px auto;
+                }
+            }
+        }
+    }
+}
+
+// Node Page
+.page-node-type-page{
+    #page-content{
+        #block-tekmens-ourstory{
+            padding: 30px 0;
+            margin-bottom: 30px;
+            h2{
+                text-align: left;
+                font-size: 42px;
+                font-weight: 600;
+                color: $brand-pink;
+                margin-bottom: 15px;
+            }
+            .field--name-field-image {
+                // width: 40%;
+                width: 100%;
+                display: inline-block;
+            }
+            .field--name-body{
+                // width: 50%;
+                width: 100%;
+                display: inline-block;
+                // padding: 30px 0 30px 30px ;
+                padding: 30px 0;
+                vertical-align: middle;
+                color: $brand-dark-gray;
+            }
+        }
+        #block-tekmens-whatwedo{
+            padding: 30px 0;
+            h2{
+                text-align: left;
+                font-size: 42px;
+                font-weight: 600;
+                color: $brand-yellow;
+                margin-bottom: 15px;
+            }
+            .field--name-body{
+                text-align: left;
+                font-size: 18px;
+            }
+        }
+        .block-views-blocksectors-block-1{
+            .view-sectors{
+                .view-content{
+                    --bs-gutter-x: 1.5rem;
+                    --bs-gutter-y: 0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: calc(-1 * var(--bs-gutter-y));
+                    margin-right: calc(-.5 * var(--bs-gutter-x));
+                    margin-left: calc(-.5 * var(--bs-gutter-x));
+                    .views-row{
+                        padding: 0 15px;
+                        margin-bottom: 15px;
+                        .views-field-nothing{
+                            padding: 20px;
+                            color: $text-color;
+                            background: $lighter-gray;
+                            border-radius: 4px;
+                            border: 1px solid $lighter-gray;
+                            transition: 0.3s;
+                            height: 100%;
+                            .sector-wrapper{
+                                position: relative;
+                            }
+                            &:hover{
+                                border-color: $light-gray;
+                                .title{
+                                    a{
+                                        color: $brand-dark-gray;
+                                    }
+                                }
+                                .more{
+                                    a{
+                                        color: $brand-dark-gray;
+                                    }
+                                }
+                            }
+                            .title{
+                                margin-bottom: 15px;
+                                font-size: 18px;
+                                a{
+                                    color: $brand-pink;
+                                    transition: $transition;
+                                    text-decoration: none;
+                                    font-weight: 700;
+                                }
+                            }
+                            .body{
+                                line-height: 24px;
+                                font-size: 16px;
+                            }
+                            .more{
+                                margin: 15px 0 0;
+                                a{
+                                    text-decoration: none;
+                                    color: $text-color;
+                                }
+                            }
+                            .edit-link{
+                                position: absolute;
+                                right: 0;
+                                a{
+                                    color: transparent;
+                                    text-decoration: none;
+                                    &:before{
+                                        content: "\F4CA";
+                                        color: $brand-gray;
+                                        font-family: $icon;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Sector Page
+.page-node-type-sector{
+    .block-views-blockbrands-block-2{
+        padding: 45px 15px;
+        h2{
+            text-align: center;
+            font-size: 42px;
+            font-weight: 700;
+            color: $brand-dark-gray;
+            margin-bottom: 30px;
+        }
+        .view-brands{
+            .view-content{
+                --bs-gutter-x: 1.5rem;                    
+                --bs-gutter-y: 0;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: calc(-1 * var(--bs-gutter-y));
+                margin-right: calc(-.5 * var(--bs-gutter-x));
+                margin-left: calc(-.5 * var(--bs-gutter-x));
+                align-items: center;
+                .views-row{
+                    display: flex;
+                    align-items: center;
+                    .views-field-field-logo{
+                        width: 100%;
+                        text-align: center;
+                        filter: grayscale(1);
+                        transition: $transition;
+                        &:hover{
+                            filter: grayscale(0);
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    .block-views-blockproducts-block-2{
+        padding: 45px 15px;
+        h2{
+            text-align: center;
+            font-size: 42px;
+            font-weight: 700;
+            color: $brand-pink;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+// Contact Page
+.page-node-6{
+        #page-content{
+        #block-tekmens-content{
+            width: 90%;
+            h2{
+                color: $brand-pink;
+                border-bottom: 1px solid $border;
+                padding-bottom: 10px;
+                margin-bottom: 15px;
+                margin-top: 30px;
+                font-weight: bolder;
+                font-size: 2rem;
+                clear: both;
+                span{
+                    color: $brand-pink !important;
+                    font-weight: bolder !important;
+                    font-size: 2rem !important;
+                }
+                a{
+                    text-decoration: none;
+                    color: $brand-pink !important;
+                    transition: $transition;
+                    &:hover{
+                        opacity: .8;
+                    }
+                }
+            }
+            .webform-submission-contact-form{
+                .js-form-item{
+                    label{
+                        margin-bottom: 5px;
+                    }
+                    input,
+                    textarea{
+                        border-radius: 6px;
+                        &:active,
+                        &:focus{
+                            border-color: $brand-pink;
+                            box-shadow: none;
+                        }
+                    }
+                }
+                .form-actions{
+                    .webform-button--submit{
+                        background-color: $brand-pink;
+                        color: $brand-white;
+                        border-color: $brand-pink;
+                        padding: 8px 15px;
+                        border-radius: 6px;
+                        transition: $transition;
+                        font-weight: 600;
+                        &:hover{
+                            background-color: $brand-dark-gray;
+                            border-color: $brand-gray;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Products Page
+.page-node-type-product{
+    #page-content{
+        #block-tekmens-page-title{
+            background-color: $brand-dark-gray;
+            height: 105px;
+            padding: 0;
+            .page-title{
+                display: none;
+            }
+        }
+        .product-title{
+            border-bottom: 1px solid $border;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            .product-brand{
+                a{
+                    color: $brand-pink;
+                    text-decoration: none;
+                    font-weight: 600;
+                    &:hover{
+                        color: $brand-red;
+                    }
+                }
+            }   
+            .page-title{
+                font-weight: 600;
+                color: $text-color;
+                font-size: 36px;
+            }
+        }
+        .field--name-field-manufacturing-origin,
+        .field--name-field-supplier-name{
+            margin-bottom: 10px;
+            .field__label{
+                display: inline-block;
+                font-weight: 600;
+                color: $text-color;
+                &:after{
+                    content:": ";
+                }
+            }
+            .field__item{
+                display: inline-block;
+                color: $brand-dark-gray;
+            }
+        }
+        .field--name-field-application,
+        .field--name-field-parameters{
+            margin-bottom: 10px;
+            .field__label{
+                font-weight: 600;
+                color: $text-color
+            }
+            .field__item{
+                color: $brand-dark-gray;
+            }
+        }
+    }
+}
+
+// Resources
+.page-node-type-resource{
+    #page-content{
+        #block-tekmens-page-title{
+            background-color: $brand-dark-gray;
+            height: 105px;
+            padding: 0;
+            .page-title{
+                display: none;
+            }
+        }
+        .resource-title{
+            border-bottom: 1px solid $border;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            .resource-type{
+                color: $brand-pink;
+                text-decoration: none;
+                font-weight: 600;
+            }   
+            .page-title{
+                font-weight: 600;
+                color: $brand-dark-gray;
+                font-size: 36px;
+            }
+            .created{
+                color: $text-color
+            }
+        }
+        .field--name-field-image{
+            margin-bottom: 15px;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .field--name-field-attachments{
+            .file{
+                padding-left: 0;
+                background: none;
+                a{
+                    color: $text-color;
+                    text-transform: capitalize;
+                    text-decoration: none;
+                    transition: $transition;
+                    &:after{
+                        content:"\F29B";
+                        font-family: $icon;
+                        padding-left: 10px;
+                        vertical-align: middle;
+                    }
+                    &:hover{
+                        color: $brand-pink;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    #page-content {
+        #block-tekmens-content{
+            width: 80%;
+            .field--name-body{
+                img{
+                    max-width: 100%;
+                    height: auto;
+                    margin: 15px 0;
+                    &.align-left{
+                        width: 60%;
+                        margin-right: 15px;
+                    }
+                    &.align-right{
+                        width: 60%;
+                        margin-left: 15px;
+                    }
+                    &.align-center{
+                        width: 80%;
+                        margin: 15px auto;
+                    }
+                }
+            }
+        }
+    }
+    .page-node-type-page {
+        #page-content {
+            #block-tekmens-ourstory {
+                .field--name-field-image{
+                    width: 40%;
+                }
+                .field--name-body{
+                    width: 50%;
+                    padding-left: 30px;
+                    vertical-align: top;
+                }
+            }
+            #block-tekmens-whatwedo{
+                h2{
+                    text-align: center;
+                }
+                .field--name-body{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    #page-content {
+        #block-tekmens-content{
+            width: 70%;
+            .field--name-body{
+                img{
+                    max-width: 100%;
+                    height: auto;
+                    margin: 15px 0;
+                    &.align-left{
+                        width: 40%;
+                        margin-right: 15px;
+                    }
+                    &.align-right{
+                        width: 40%;
+                        margin-left: 15px;
+                    }
+                    &.align-center{
+                        width: 70%;
+                        margin: 15px auto;
+                    }
+                }
+            }
+        }
+    }
+    .page-node-type-page {
+        #page-content {
+            #block-tekmens-ourstory {
+                .field--name-body{
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}

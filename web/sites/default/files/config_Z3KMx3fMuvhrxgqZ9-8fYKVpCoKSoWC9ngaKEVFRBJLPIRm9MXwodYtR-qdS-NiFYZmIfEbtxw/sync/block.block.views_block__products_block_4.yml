@@ -1,0 +1,30 @@
+uuid: f675a552-1f7a-4d5f-b4c6-efe8b2bb72bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.products
+  module:
+    - system
+    - views
+  theme:
+    - tekmens
+id: views_block__products_block_4
+theme: tekmens
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:products-block_4'
+settings:
+  id: 'views_block:products-block_4'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/taxonomy/term/1\r\n/taxonomy/term/2\r\n/taxonomy/term/3\r\n/taxonomy/term/4"

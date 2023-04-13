@@ -1,0 +1,27 @@
+uuid: 022c84e3-eb85-41f3-bbee-3091f616ca9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_banner_background
+    - node.type.page
+  module:
+    - file
+id: node.page.field_banner_background
+field_name: field_banner_background
+entity_type: node
+bundle: page
+label: 'Banner Background'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: banner
+  file_extensions: 'jpg png wmv mp4'
+  max_filesize: ''
+  description_field: false
+field_type: file

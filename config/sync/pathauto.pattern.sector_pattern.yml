@@ -1,0 +1,23 @@
+uuid: d5dd1fe1-2db6-402e-8e31-2cb380f5f062
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: sector_pattern
+label: 'Sector & Product Pattern'
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria:
+  4d113e2c-03ef-4ead-89be-3f3ed210f4b3:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 4d113e2c-03ef-4ead-89be-3f3ed210f4b3
+    context_mapping:
+      node: node
+    bundles:
+      product: product
+      sector: sector
+selection_logic: and
+weight: -5
+relationships: {  }

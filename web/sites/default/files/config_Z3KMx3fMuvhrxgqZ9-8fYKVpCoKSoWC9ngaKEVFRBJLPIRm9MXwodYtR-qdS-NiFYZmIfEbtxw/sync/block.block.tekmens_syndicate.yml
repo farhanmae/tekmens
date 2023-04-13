@@ -1,0 +1,23 @@
+uuid: c0b93253-5ec8-4fd6-b31a-10e486e4a71b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - tekmens
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: tekmens_syndicate
+theme: tekmens
+region: header
+weight: -3
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

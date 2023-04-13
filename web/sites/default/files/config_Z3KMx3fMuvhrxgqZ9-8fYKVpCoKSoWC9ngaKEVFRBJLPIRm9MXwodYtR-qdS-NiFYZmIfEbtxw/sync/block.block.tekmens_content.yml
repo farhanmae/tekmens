@@ -1,0 +1,22 @@
+uuid: f13ec942-7ff3-409c-a56d-b4578868deab
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tekmens
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: tekmens_content
+theme: tekmens
+region: content
+weight: -9
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: d32163ed-2f44-4800-a364-c23e319ad3eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sectors
+  module:
+    - system
+    - views
+  theme:
+    - tekmens
+id: views_block__sectors_block_1
+theme: tekmens
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:sectors-block_1'
+settings:
+  id: 'views_block:sectors-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/5

@@ -1,0 +1,18 @@
+uuid: dacc8234-9149-4312-8e33-a4dc5b93f10f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Resource
+type: resource
+description: 'Use <em>resources</em> for adding technical data sheet, manuals, blogs and white papers.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

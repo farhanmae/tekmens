@@ -1,0 +1,19 @@
+uuid: 2a8df1a8-ac18-4841-94b8-35e10155652e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_supplier_name
+    - node.type.product
+id: node.product.field_supplier_name
+field_name: field_supplier_name
+entity_type: node
+bundle: product
+label: 'Supplier Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

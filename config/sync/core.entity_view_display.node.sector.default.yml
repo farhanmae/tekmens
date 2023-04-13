@@ -1,0 +1,28 @@
+uuid: 9a6a56f6-236c-456c-969a-f9740a61adf0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sector.body
+    - node.type.sector
+  module:
+    - text
+    - user
+id: node.sector.default
+targetEntityType: node
+bundle: sector
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

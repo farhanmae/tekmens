@@ -1,0 +1,23 @@
+uuid: f7008706-d045-45c3-907d-c3575286fdb2
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - tekmens
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: tekmens_search_form_wide
+theme: tekmens
+region: header
+weight: -9
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

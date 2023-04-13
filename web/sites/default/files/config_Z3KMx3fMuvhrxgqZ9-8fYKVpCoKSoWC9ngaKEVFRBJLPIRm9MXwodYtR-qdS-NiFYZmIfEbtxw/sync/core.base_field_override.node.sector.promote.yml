@@ -1,0 +1,22 @@
+uuid: f377c7df-85bd-4abe-ba48-8fe6c4cc4964
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sector
+id: node.sector.promote
+field_name: promote
+entity_type: node
+bundle: sector
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

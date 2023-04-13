@@ -1,0 +1,25 @@
+uuid: 0fd5734f-d1b5-4d82-b36c-21888ee6ac8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-one
+  module:
+    - system
+  theme:
+    - tekmens
+id: footerone
+theme: tekmens
+region: footer
+weight: -9
+provider: null
+plugin: 'system_menu_block:footer-one'
+settings:
+  id: 'system_menu_block:footer-one'
+  label: 'Footer One'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

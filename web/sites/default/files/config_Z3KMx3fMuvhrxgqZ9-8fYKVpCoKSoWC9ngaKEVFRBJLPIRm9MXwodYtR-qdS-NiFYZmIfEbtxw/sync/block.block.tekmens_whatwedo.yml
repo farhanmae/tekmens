@@ -1,0 +1,30 @@
+uuid: 8176569c-d16b-4438-9a48-1b3f81719324
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4d8a2d02-01dc-47fc-9669-bd58af04ef19'
+  module:
+    - block_content
+    - system
+  theme:
+    - tekmens
+id: tekmens_whatwedo
+theme: tekmens
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:4d8a2d02-01dc-47fc-9669-bd58af04ef19'
+settings:
+  id: 'block_content:4d8a2d02-01dc-47fc-9669-bd58af04ef19'
+  label: 'What We Do'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/5

@@ -1,0 +1,63 @@
+uuid: b7b8eb5c-f280-422e-b812-594e3f063f84
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+    - taxonomy.vocabulary.brand
+    - taxonomy.vocabulary.category
+    - taxonomy.vocabulary.tags
+  module:
+    - block_content_permissions
+    - comment
+    - contextual
+    - entityqueue
+    - file
+    - node
+    - path
+    - system
+    - taxonomy
+    - toolbar
+    - tour
+_core:
+  default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
+id: content_editor
+label: 'Content editor'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer entityqueue'
+  - 'administer url aliases'
+  - 'create article content'
+  - 'create page content'
+  - 'create terms in brand'
+  - 'create terms in category'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'delete terms in brand'
+  - 'delete terms in category'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'edit terms in brand'
+  - 'edit terms in category'
+  - 'edit terms in tags'
+  - 'manipulate all entityqueues'
+  - 'manipulate entityqueues'
+  - 'revert all revisions'
+  - 'update any basic block content'
+  - 'update any basic_block_with_image block content'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

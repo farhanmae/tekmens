@@ -1,0 +1,22 @@
+uuid: 0909c7f7-560b-4c7e-be88-33cec226da02
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - tekmens
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: tekmens_help
+theme: tekmens
+region: header
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,15 @@
+# oli.libraries.yml
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/global.css: {}
+      css/front.css: {}
+      css/node.css: {}
+      css/taxonomy.css: {}
+      css/style.css: {}
+  js: 
+    js/custom.js: {}  
+  dependencies:
+    - core/drupal
+    - core/jquery

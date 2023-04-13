@@ -1,0 +1,30 @@
+uuid: c450e7c9-0980-42b8-ae58-4243f864a1f1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4d8a2d02-01dc-47fc-9669-bd58af04ef19'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: whatwedo
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:4d8a2d02-01dc-47fc-9669-bd58af04ef19'
+settings:
+  id: 'block_content:4d8a2d02-01dc-47fc-9669-bd58af04ef19'
+  label: 'What We Do'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/5

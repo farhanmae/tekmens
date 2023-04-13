@@ -1,0 +1,22 @@
+uuid: e79b3aae-00ef-437b-a1a8-a32f8819ab5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tekmens
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: tekmens_powered
+theme: tekmens
+region: header
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

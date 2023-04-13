@@ -1,0 +1,24 @@
+uuid: 26b2ecc1-5f43-4d1d-9769-7f329e6d8edc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.categories
+  module:
+    - views
+  theme:
+    - tekmens
+id: views_block__categories_block_1
+theme: tekmens
+region: content_front
+weight: -12
+provider: null
+plugin: 'views_block:categories-block_1'
+settings:
+  id: 'views_block:categories-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

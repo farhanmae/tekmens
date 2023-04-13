@@ -1,0 +1,22 @@
+uuid: dbb31401-8f8c-49a3-a238-6eebb2c6774a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_manufacturing_origin
+    - node.type.product
+  module:
+    - country
+id: node.product.field_manufacturing_origin
+field_name: field_manufacturing_origin
+entity_type: node
+bundle: product
+label: 'Manufacturing Origin'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  selectable_countries: {  }
+field_type: country

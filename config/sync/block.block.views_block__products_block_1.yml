@@ -1,0 +1,33 @@
+uuid: fff5ee1a-f9a3-4773-926b-bd87c94a85a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.products
+  module:
+    - taxonomy
+    - views
+  theme:
+    - tekmens
+id: views_block__products_block_1
+theme: tekmens
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:products-block_1'
+settings:
+  id: 'views_block:products-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:taxonomy_term':
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: '@taxonomy_term.taxonomy_term_route_context:taxonomy_term'
+    bundles:
+      brand: brand

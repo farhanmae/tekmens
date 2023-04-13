@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300;400;600;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+.page-brand #page-content #block-tekmens-page-title {
+  background-color: #343a40;
+  height: 105px;
+  padding: 0;
+}
+.page-brand #page-content #block-tekmens-page-title .page-title {
+  display: none;
+}
+.page-brand #page-content #block-tekmens-content .view-display-id-page_1 .view-header {
+  margin-bottom: 30px;
+}
+.page-brand #page-content #block-tekmens-content .view-display-id-page_1 .view-header .brand {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e3e8f4;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+.page-brand #page-content #block-tekmens-content .view-display-id-page_1 .view-header .brand .brand-logo {
+  height: 150px;
+  width: 150px;
+  margin-right: 15px;
+}
+.page-brand #page-content #block-tekmens-content .view-display-id-page_1 .view-header .brand .page-title {
+  font-weight: 600;
+  color: #343a40;
+}
+.page-brand #page-content #block-tekmens-content .view-display-id-page_1 .view-header .field--name-description {
+  color: #4d5b7c;
+}
+.page-brand #page-content #block-tekmens-content .view-display-id-page_1 .view-content {
+  display: none;
+}
+.page-brand #page-content .block-views h2 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  color: #f9004d;
+  margin-bottom: 30px;
+}
+
+.page-category .menu.hierarchical-taxonomy-menu.block-taxonomymenu__menu::before {
+  content: "";
+}
+.page-category #page-content #block-tekmens-content .view-display-id-page_1 .view-header {
+  margin-bottom: 30px;
+}
+.page-category #page-content #block-tekmens-content .view-display-id-page_1 .view-header .field--name-description {
+  color: #4d5b7c;
+}
+.page-category #page-content #block-tekmens-content .view-display-id-page_1 .view-content {
+  display: none;
+}
+.page-category #page-content .block-views h2 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  color: #f9004d;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=taxonomy.css.map */

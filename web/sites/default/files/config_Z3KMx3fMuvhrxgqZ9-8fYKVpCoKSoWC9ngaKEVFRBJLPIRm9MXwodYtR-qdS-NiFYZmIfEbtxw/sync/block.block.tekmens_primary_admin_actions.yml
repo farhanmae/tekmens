@@ -1,0 +1,20 @@
+uuid: 5e8930c1-dc4a-432a-ad53-2956829b476e
+langcode: en
+status: false
+dependencies:
+  theme:
+    - tekmens
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: tekmens_primary_admin_actions
+theme: tekmens
+region: content
+weight: 1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

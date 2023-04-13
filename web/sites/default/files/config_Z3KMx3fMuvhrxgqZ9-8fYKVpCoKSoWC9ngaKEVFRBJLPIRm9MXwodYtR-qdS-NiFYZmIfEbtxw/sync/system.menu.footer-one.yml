@@ -1,0 +1,8 @@
+uuid: c0f3f5e2-f537-48eb-aa99-1b25f2ada607
+langcode: en
+status: true
+dependencies: {  }
+id: footer-one
+label: 'Footer One'
+description: ''
+locked: false

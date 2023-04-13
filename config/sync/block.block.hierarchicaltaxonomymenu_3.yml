@@ -1,0 +1,42 @@
+uuid: 5a0935c4-10b8-4b69-a727-bfdae2f80078
+langcode: en
+status: true
+dependencies:
+  module:
+    - hierarchical_taxonomy_menu
+    - system
+  theme:
+    - tekmens
+id: hierarchicaltaxonomymenu_3
+theme: tekmens
+region: content
+weight: -12
+provider: null
+plugin: hierarchical_taxonomy_menu
+settings:
+  id: hierarchical_taxonomy_menu
+  label: 'Environmental Monitoring Menu'
+  label_display: '0'
+  provider: hierarchical_taxonomy_menu
+  vocabulary: category|
+  max_depth: 0
+  dynamic_block_title: false
+  collapsible: false
+  stay_open: false
+  interactive_parent: false
+  hide_block: false
+  use_image_style: false
+  image_height: 16
+  image_width: 16
+  image_style: large
+  max_age: '0'
+  base_term: '2'
+  dynamic_base_term: false
+  show_count: 0
+  referencing_field: _none
+  calculate_count_recursively: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/node/2\r\n/taxonomy/term/2"

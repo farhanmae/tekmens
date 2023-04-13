@@ -1,0 +1,30 @@
+uuid: 2a320265-53c7-4b0a-98ce-a8921b5bffe6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic_block_with_image:239cba96-2d20-42e1-a422-9cb9dae893f6'
+  module:
+    - block_content
+    - system
+  theme:
+    - tekmens
+id: tekmens_ourstory
+theme: tekmens
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:239cba96-2d20-42e1-a422-9cb9dae893f6'
+settings:
+  id: 'block_content:239cba96-2d20-42e1-a422-9cb9dae893f6'
+  label: 'Our Story'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/5

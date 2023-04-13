@@ -1,0 +1,29 @@
+uuid: 1214118a-4514-41af-9d67-f6b2defd4571
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.resources
+  module:
+    - system
+  theme:
+    - tekmens
+id: resources
+theme: tekmens
+region: content
+weight: -10
+provider: null
+plugin: 'system_menu_block:resources'
+settings:
+  id: 'system_menu_block:resources'
+  label: Resources
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/resources/blogs\r\n/resources/manuals\r\n/resources/technical-data-sheets\r\n/resources/white-papers"
