@@ -5,6 +5,9 @@ dependencies:
   config:
     - node.type.article
     - node.type.page
+    - node.type.product
+    - node.type.resource
+    - node.type.sector
     - taxonomy.vocabulary.brand
     - taxonomy.vocabulary.category
     - taxonomy.vocabulary.tags
@@ -18,8 +21,8 @@ dependencies:
     - path
     - system
     - taxonomy
-    - toolbar
     - tour
+    - webform
 _core:
   default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
 id: content_editor
@@ -31,33 +34,45 @@ permissions:
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
-  - 'access toolbar'
+  - 'access taxonomy overview'
   - 'access tour'
+  - 'access webform overview'
   - 'administer entityqueue'
+  - 'administer nodes'
+  - 'administer taxonomy'
   - 'administer url aliases'
-  - 'create article content'
+  - 'administer webform submission'
   - 'create page content'
+  - 'create product content'
+  - 'create resource content'
   - 'create terms in brand'
   - 'create terms in category'
   - 'create terms in tags'
   - 'create url aliases'
-  - 'delete article revisions'
+  - 'delete any product content'
+  - 'delete any resource content'
   - 'delete own article content'
   - 'delete own page content'
-  - 'delete page revisions'
   - 'delete terms in brand'
   - 'delete terms in category'
+  - 'edit any page content'
+  - 'edit any product content'
+  - 'edit any resource content'
+  - 'edit any sector content'
   - 'edit own article content'
   - 'edit own comments'
   - 'edit own page content'
+  - 'edit own product content'
+  - 'edit own resource content'
+  - 'edit own sector content'
   - 'edit terms in brand'
   - 'edit terms in category'
   - 'edit terms in tags'
   - 'manipulate all entityqueues'
   - 'manipulate entityqueues'
-  - 'revert all revisions'
   - 'update any basic block content'
   - 'update any basic_block_with_image block content'
-  - 'view all revisions'
+  - 'view any webform submission'
   - 'view own unpublished content'
+  - 'view own webform submission'
   - 'view the administration theme'

@@ -13,6 +13,6 @@ name: Sector
 type: sector
 description: 'Use <em>sectors</em> for adding different sectors'
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 0
 display_submitted: false

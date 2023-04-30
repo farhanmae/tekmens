@@ -32,6 +32,7 @@
         "drupal/gin": "^3.0@RC",
         "drupal/gin_login": "2.0",
         "drupal/hierarchical_taxonomy_menu": "1.42",
+        "drupal/menu_items_visibility": "1.0",
         "drupal/pathauto": "1.11",
         "drupal/redirect": "1.8",
         "drupal/select2": "1.14",
@@ -40,7 +41,9 @@
         "drupal/slick_extras": "^1.0@RC",
         "drupal/slick_views": "2.6",
         "drupal/twig_tweak": "3.2",
+        "drupal/vapn": "1.5",
         "drupal/webform": "^6.1",
+        "drupal/webform_views": "5.1",
         "npm-asset/select2": "^4.0",
         "oomphinc/composer-installers-extender": "^2.0"
     },

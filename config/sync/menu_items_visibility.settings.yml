@@ -1,0 +1,6 @@
+mlid:
+  'menu_link_content:6f159c7d-86e8-4623-9e44-24da79c4b766':
+    roles:
+      - content_editor
+      - administrator
+    access_check: false

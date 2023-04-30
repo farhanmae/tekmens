@@ -12,3 +12,9 @@
             $variables['attributes']['class'][] = 'page-' . $term->bundle();
         }
     }
+
+    function tekmens_preprocess_node(&$variables) {
+        $variables['dashboard_products'] = views_embed_view('content', 'dashboard_products');
+        $variables['dashboard_blogs'] = views_embed_view('content', 'dashboard_blogs');
+        $variables['dashboard_enquiries'] = views_embed_view('enquiry_submissions', 'dashboard_enquiries');
+    }
