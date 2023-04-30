@@ -502,7 +502,23 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
-      header: {  }
+      use_more: true
+      use_more_always: false
+      use_more_text: 'View More'
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: true
+          content:
+            value: '<h3>Enquiries</h3>'
+            format: basic_html
+          tokenize: false
       footer: {  }
       display_extenders: {  }
     cache_metadata:
@@ -873,32 +889,15 @@ display:
           items_per_page: 5
       defaults:
         pager: false
-        use_more: false
-        use_more_always: false
-        use_more_text: false
+        use_more: true
+        use_more_always: true
+        use_more_text: true
         link_display: false
         link_url: false
         fields: false
-        header: false
-      use_more: true
-      use_more_always: true
-      use_more_text: 'View More'
+        header: true
       link_display: page_1
       link_url: ''
-      header:
-        area:
-          id: area
-          table: views
-          field: area
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: text
-          empty: false
-          content:
-            value: '<h3>Enquiries</h3>'
-            format: basic_html
-          tokenize: false
       display_extenders: {  }
     cache_metadata:
       max-age: -1
@@ -914,6 +913,11 @@ display:
     display_plugin: page
     position: 1
     display_options:
+      title: Enquiries
+      defaults:
+        title: false
+        header: false
+      header: {  }
       display_extenders: {  }
       path: admin/enquiries
     cache_metadata:
