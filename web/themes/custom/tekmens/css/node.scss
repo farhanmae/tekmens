@@ -628,6 +628,66 @@
     }
 }
 
+.page-node-14 {
+    #page-content {
+        #block-tekmens-content{
+            .help{
+                padding: 20px;
+                background: $lighter-gray;
+                border: 2px solid $light-gray;
+                border-radius: 8px;
+                margin-top: 20px;
+                h2{
+                    color: $brand-red;
+                    margin-bottom: 15px;
+                    font-weight: bolder;
+                    font-size: 1.75rem;
+                    clear: both;
+                }
+                p{
+                    color: $brand-gray;
+                    .phone{
+                        color: $brand-pink !important;
+                        font-size: 20px !important;
+                        font-weight: 600;
+                        a{
+                            color: $brand-pink !important;
+                            font-size: 20px !important;
+                            font-weight: 600;
+                            text-decoration: none;
+                        }
+                        &:before{
+                            content: "\F5B4";
+                            margin-right: 5px;
+                            vertical-align: middle;
+                            font-family: $icon !important;
+                            font-weight: normal;   
+                        }
+                    }
+                    .email{
+                        color: $brand-pink !important;
+                        font-size: 20px !important;
+                        font-weight: 600;
+                        a{
+                            color: $brand-pink !important;
+                            font-size: 20px !important;
+                            font-weight: 600;
+                            text-decoration: none;
+                        }
+                        &:before{
+                            content: "\F84B";
+                            margin-right: 5px;
+                            vertical-align: middle;
+                            font-family: $icon !important;
+                            font-weight: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (min-width: 768px) {
     #page-content {
         #block-tekmens-content{
@@ -675,6 +735,13 @@
             }
         }
     }
+    .page-node-14 {
+        #page-content {
+            #block-tekmens-content{
+                width: 100%;
+            }
+        }
+    }
 }
 
 @media (min-width: 992px) {
@@ -708,6 +775,13 @@
                 .field--name-body{
                     vertical-align: middle;
                 }
+            }
+        }
+    }
+    .page-node-14 {
+        #page-content {
+            #block-tekmens-content{
+                width: 90%;
             }
         }
     }

@@ -561,6 +561,60 @@
   color: #f9004d;
 }
 
+.page-node-14 #page-content #block-tekmens-content .help {
+  padding: 20px;
+  background: #f9f9fa;
+  border: 2px solid #eaecef;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.page-node-14 #page-content #block-tekmens-content .help h2 {
+  color: #f81f01;
+  margin-bottom: 15px;
+  font-weight: bolder;
+  font-size: 1.75rem;
+  clear: both;
+}
+.page-node-14 #page-content #block-tekmens-content .help p {
+  color: #c6c9d8;
+}
+.page-node-14 #page-content #block-tekmens-content .help p .phone {
+  color: #f9004d !important;
+  font-size: 20px !important;
+  font-weight: 600;
+}
+.page-node-14 #page-content #block-tekmens-content .help p .phone a {
+  color: #f9004d !important;
+  font-size: 20px !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+.page-node-14 #page-content #block-tekmens-content .help p .phone:before {
+  content: "\f5b4";
+  margin-right: 5px;
+  vertical-align: middle;
+  font-family: "bootstrap-icons" !important;
+  font-weight: normal;
+}
+.page-node-14 #page-content #block-tekmens-content .help p .email {
+  color: #f9004d !important;
+  font-size: 20px !important;
+  font-weight: 600;
+}
+.page-node-14 #page-content #block-tekmens-content .help p .email a {
+  color: #f9004d !important;
+  font-size: 20px !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+.page-node-14 #page-content #block-tekmens-content .help p .email:before {
+  content: "\f84b";
+  margin-right: 5px;
+  vertical-align: middle;
+  font-family: "bootstrap-icons" !important;
+  font-weight: normal;
+}
+
 @media (min-width: 768px) {
   #page-content #block-tekmens-content {
     width: 80%;
@@ -596,6 +650,9 @@
   .page-node-type-page #page-content #block-tekmens-whatwedo .field--name-body {
     text-align: center;
   }
+  .page-node-14 #page-content #block-tekmens-content {
+    width: 100%;
+  }
 }
 @media (min-width: 992px) {
   #page-content #block-tekmens-content {
@@ -620,5 +677,8 @@
   }
   .page-node-type-page #page-content #block-tekmens-ourstory .field--name-body {
     vertical-align: middle;
+  }
+  .page-node-14 #page-content #block-tekmens-content {
+    width: 90%;
   }
 }/*# sourceMappingURL=node.css.map */

@@ -4,3 +4,21 @@ mlid:
       - content_editor
       - administrator
     access_check: false
+  'menu_link_content:9fdfd5ed-d790-4884-afc7-056629e47430':
+    roles: {  }
+    access_check: false
+  'menu_link_content:a602533c-9bfa-4fd3-b0cf-f88ad80a2a93':
+    roles: {  }
+    access_check: false
+  'menu_link_content:021bf9e2-b31a-4928-b79c-de32de166c0b':
+    roles: {  }
+    access_check: false
+  'menu_link_content:fa0b8b42-d94e-4355-9c91-3781e8453e5e':
+    roles: {  }
+    access_check: false
+  'menu_link_content:866fae5f-8152-4cd5-a46d-eddae7a8a1b7':
+    roles: {  }
+    access_check: false
+  'menu_link_content:3f57bfa7-3577-48a9-96ad-c4fc1691b6cd':
+    roles: {  }
+    access_check: false

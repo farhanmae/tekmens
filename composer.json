@@ -40,6 +40,7 @@
         "drupal/slick": "2.7",
         "drupal/slick_extras": "^1.0@RC",
         "drupal/slick_views": "2.6",
+        "drupal/structure_sync": "2.0",
         "drupal/twig_tweak": "3.2",
         "drupal/vapn": "1.5",
         "drupal/webform": "^6.1",
