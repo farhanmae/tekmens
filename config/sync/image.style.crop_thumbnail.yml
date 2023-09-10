@@ -1,0 +1,20 @@
+uuid: 1e61d241-dc8d-44d8-97cd-af8727f897a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.square
+  module:
+    - crop
+_core:
+  default_config_hash: N1S0PHZeyxfFqgzB-sDeGPaxi0dDOL8NUiP_d6WXSV0
+name: crop_thumbnail
+label: 'Crop thumbnail'
+effects:
+  9ea28aa9-6b2f-4c35-9c3c-dc0d6ae0c42e:
+    uuid: 9ea28aa9-6b2f-4c35-9c3c-dc0d6ae0c42e
+    id: crop_crop
+    weight: 2
+    data:
+      crop_type: square
+      automatic_crop_provider: null

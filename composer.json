@@ -33,6 +33,7 @@
         "drupal/gin": "^3.0@RC",
         "drupal/gin_login": "2.0",
         "drupal/hierarchical_taxonomy_menu": "1.42",
+        "drupal/image_widget_crop": "2.4",
         "drupal/menu_items_visibility": "1.0",
         "drupal/pathauto": "1.11",
         "drupal/redirect": "1.8",

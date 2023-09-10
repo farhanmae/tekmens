@@ -14,12 +14,12 @@ dependencies:
     - field.field.node.product.field_sector
     - field.field.node.product.field_specs
     - field.field.node.product.field_supplier_name
-    - image.style.thumbnail
+    - image.style.crop_thumbnail
     - node.type.product
   module:
     - country
     - file
-    - image
+    - image_widget_crop
     - path
     - select2
     - shs
@@ -81,12 +81,19 @@ content:
       force_deepest: false
     third_party_settings: {  }
   field_image:
-    type: image_image
+    type: image_widget_crop
     weight: 8
     region: content
     settings:
       progress_indicator: throbber
-      preview_image_style: thumbnail
+      preview_image_style: crop_thumbnail
+      crop_preview_image_style: crop_thumbnail
+      crop_list:
+        - square
+      crop_types_required: {  }
+      warn_multiple_usages: true
+      show_crop_area: false
+      show_default_crop: true
     third_party_settings: {  }
   field_manufacturing_origin:
     type: country_default
