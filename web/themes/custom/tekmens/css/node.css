@@ -560,6 +560,25 @@
   font-size: 1.5rem;
   border-bottom: none;
 }
+.page-node-type-product #page-content .section-2 table {
+  width: 100%;
+}
+.page-node-type-product #page-content .section-2 table thead {
+  background: #c6c9d8;
+}
+.page-node-type-product #page-content .section-2 table thead tr th {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #f9f9fa;
+}
+.page-node-type-product #page-content .section-2 table tbody tr td {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #f9f9fa;
+}
+.page-node-type-product #page-content .section-2 table tbody tr:nth-child(even) {
+  background-color: #eaecef;
+}
 
 .page-node-type-resource #page-content #block-tekmens-page-title {
   background-color: #343a40;
