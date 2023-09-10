@@ -1,3 +1,950 @@
+taxonomies:
+  brand:
+    -
+      vid: brand
+      tid: '49'
+      langcode: en
+      name: Avibro
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 0c01f787-54e6-46f9-b2b4-00954adf979e
+      field_logo:
+        -
+          target_id: '17'
+          alt: ''
+          title: ''
+          width: '109'
+          height: '36'
+    -
+      vid: brand
+      tid: '56'
+      langcode: en
+      name: Bosch
+      description__value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac nibh urna. Sed porttitor tristique risus, vel dictum turpis pretium nec. Etiam vel ipsum diam. Ut augue lectus, ornare ac sem vel, porttitor volutpat quam. Nam faucibus a augue quis volutpat. Fusce tincidunt ornare mattis. In hac habitasse platea dictumst. Nulla pharetra leo quis tempus pulvinar. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam feugiat eu orci quis congue. Nunc ultricies placerat nunc vel ultricies. Aliquam imperdiet ex vitae ante accumsan tristique. Etiam blandit venenatis justo, et rutrum urna porttitor eu. Quisque varius elit odio, quis ornare nisi pretium in. Etiam aliquam nibh vitae efficitur molestie. Morbi ut tincidunt turpis.</p><p>Phasellus tincidunt velit sapien, vitae cursus orci tincidunt eget. Integer gravida, elit vel viverra imperdiet, metus nibh eleifend orci, eu venenatis purus ligula sit amet orci. Donec at diam condimentum nulla commodo rutrum. Fusce egestas purus eu justo aliquet, in mollis felis pulvinar. Quisque a lorem turpis. Maecenas vestibulum varius massa sed gravida. Sed eu convallis elit, et fermentum ante.</p>'
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: bb884229-96c8-4dc3-8cb4-a87311bcf783
+      field_logo:
+        -
+          target_id: '38'
+          alt: ''
+          title: ''
+          width: '730'
+          height: '730'
+      field_sector:
+        -
+          name: 'Construction Machinery Solutions'
+          vid: category
+    -
+      vid: brand
+      tid: '48'
+      langcode: en
+      name: CAT
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c87178b1-801f-4941-a0af-84cbb95ffbe3
+      field_logo:
+        -
+          target_id: '16'
+          alt: ''
+          title: ''
+          width: '1200'
+          height: '1200'
+      field_sector:
+        -
+          name: 'Construction Machinery Solutions'
+          vid: category
+    -
+      vid: brand
+      tid: '50'
+      langcode: en
+      name: GE
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 611d4d5c-e5cb-4e69-8645-1495cbca4759
+      field_logo:
+        -
+          target_id: '18'
+          alt: ''
+          title: ''
+          width: '225'
+          height: '225'
+      field_sector:
+        -
+          name: MEP
+          vid: category
+    -
+      vid: brand
+      tid: '51'
+      langcode: en
+      name: Grohe
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 80b58934-f4db-4fde-9a7c-2c8c92a1ee01
+      field_logo:
+        -
+          target_id: '19'
+          alt: ''
+          title: ''
+          width: '285'
+          height: '214'
+      field_sector:
+        -
+          name: MEP
+          vid: category
+    -
+      vid: brand
+      tid: '52'
+      langcode: en
+      name: Hettich
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: fb77bba4-04b1-46a6-bec0-02509fe358bb
+      field_logo:
+        -
+          target_id: '20'
+          alt: ''
+          title: ''
+          width: '255'
+          height: '198'
+      field_sector:
+        -
+          name: MEP
+          vid: category
+    -
+      vid: brand
+      tid: '53'
+      langcode: en
+      name: Hitachi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: cf0da0e1-8e46-4b7e-8b1e-da4c7bffd2a4
+      field_logo:
+        -
+          target_id: '21'
+          alt: ''
+          title: ''
+          width: '600'
+          height: '600'
+      field_sector:
+        -
+          name: 'Construction Machinery Solutions'
+          vid: category
+    -
+      vid: brand
+      tid: '46'
+      langcode: en
+      name: Honeywell
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 90e5c2bc-bc6c-4e35-ba50-c3f20a6b08dc
+      field_logo:
+        -
+          target_id: '14'
+          alt: ''
+          title: ''
+          width: '500'
+          height: '500'
+      field_sector:
+        -
+          name: MEP
+          vid: category
+    -
+      vid: brand
+      tid: '54'
+      langcode: en
+      name: Kohler
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 9452f31e-5e98-4f86-9061-270435d4c82b
+      field_logo:
+        -
+          target_id: '22'
+          alt: ''
+          title: ''
+          width: '863'
+          height: '650'
+      field_sector:
+        -
+          name: MEP
+          vid: category
+    -
+      vid: brand
+      tid: '55'
+      langcode: en
+      name: Schnieder
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: cebd0059-8446-49d1-88fc-9d21ca839248
+      field_logo:
+        -
+          target_id: '23'
+          alt: ''
+          title: ''
+          width: '225'
+          height: '225'
+      field_sector:
+        -
+          name: MEP
+          vid: category
+  category:
+    -
+      vid: category
+      tid: '57'
+      langcode: en
+      name: 'Air Compressor'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '1'
+      uuid: bc1af7b1-1b16-4e8d-bfa3-b546f76d78fb
+      field_logo: {  }
+    -
+      vid: category
+      tid: '23'
+      langcode: en
+      name: 'Air Conditioners'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '17'
+      uuid: aaf15abe-9b07-4291-ad03-83683c95cf8a
+      field_logo:
+        -
+          target_id: '29'
+          alt: ''
+          title: ''
+          width: '64'
+          height: '64'
+    -
+      vid: category
+      tid: '29'
+      langcode: en
+      name: 'Air Quality'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '11'
+      uuid: 8316f010-e938-40d5-af1d-b44d861c9df8
+      field_logo:
+        -
+          target_id: '31'
+          alt: ''
+          title: ''
+          width: '64'
+          height: '64'
+    -
+      vid: category
+      tid: '58'
+      langcode: en
+      name: 'Air Tools'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '1'
+      uuid: 5cdfb54d-dee9-458a-85aa-8d4ba92a24ad
+      field_logo: {  }
+    -
+      vid: category
+      tid: '59'
+      langcode: en
+      name: 'All Kind Of Diamond Tools/Polishing Pads/Blades'
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '1'
+      uuid: 671428ec-3181-4614-95d1-6c64d17c6095
+      field_logo: {  }
+    -
+      vid: category
+      tid: '44'
+      langcode: en
+      name: 'Artificial Intelligence'
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '4'
+      uuid: 7d77bc53-cfcf-403e-a2ab-07593f73c798
+      field_logo: {  }
+    -
+      vid: category
+      tid: '60'
+      langcode: en
+      name: 'Bar Bending And Cutting Machines'
+      description__value: null
+      description__format: null
+      weight: '3'
+      parent: '1'
+      uuid: a13425aa-6d1a-40fd-9316-c49097538d4f
+      field_logo: {  }
+    -
+      vid: category
+      tid: '61'
+      langcode: en
+      name: 'Block Cutting Machines'
+      description__value: null
+      description__format: null
+      weight: '4'
+      parent: '1'
+      uuid: 7be3c09c-8399-4f82-bb7e-6f28c6d70370
+      field_logo: {  }
+    -
+      vid: category
+      tid: '27'
+      langcode: en
+      name: Cables
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '16'
+      uuid: 19a6b41f-0e20-4ef2-988c-bcc97c3d9306
+      field_logo:
+        -
+          target_id: '28'
+          alt: ''
+          title: ''
+          width: '64'
+          height: '64'
+    -
+      vid: category
+      tid: '41'
+      langcode: en
+      name: 'Cellular & Satellite Communication'
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '14'
+      uuid: b0e7a0b7-1d97-4a02-aad8-33e68e1f0e60
+      field_logo:
+        -
+          target_id: '36'
+          alt: ''
+          title: ''
+          width: '64'
+          height: '64'
+    -
+      vid: category
+      tid: '62'
+      langcode: en
+      name: 'Concrete Buckets & Loading Platforms'
+      description__value: null
+      description__format: null
+      weight: '5'
+      parent: '1'
+      uuid: 4164aa01-5419-494f-ab8c-d8edebd55941
+      field_logo: {  }
+    -
+      vid: category
+      tid: '6'
+      langcode: en
+      name: 'Concrete Mixers'
+      description__value: null
+      description__format: null
+      weight: '6'
+      parent: '1'
+      uuid: 8341b8de-4a43-4bf2-8e47-2308fbab8625
+      field_logo:
+        -
+          target_id: '25'
+          alt: ''
+          title: ''
+          width: '48'
+          height: '48'
+    -
+      vid: category
+      tid: '63'
+      langcode: en
+      name: 'Concrete Vibrators & Poker Shafts'
+      description__value: null
+      description__format: null
+      weight: '7'
+      parent: '1'
+      uuid: 20826f9a-2f8e-4f85-afe7-cd265136c609
+      field_logo: {  }
+    -
+      vid: category
+      tid: '1'
+      langcode: en
+      name: 'Construction Machinery Solutions'
+      description__value: null
+      description__format: null
+      weight: '57'
+      parent: '0'
+      uuid: a8d90f96-71a4-421c-b981-89b5de8238c0
+      field_logo: {  }
+    -
+      vid: category
+      tid: '38'
+      langcode: en
+      name: 'Contamination Control'
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '13'
+      uuid: ba574f2e-4988-46ec-b777-e0b23fb67e45
+      field_logo: {  }
+    -
+      vid: category
+      tid: '43'
+      langcode: en
+      name: 'Cyber Security'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '4'
+      uuid: 56757dcb-321d-413b-a747-035b78a1840e
+      field_logo: {  }
+    -
+      vid: category
+      tid: '39'
+      langcode: en
+      name: 'Data Logger'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '14'
+      uuid: 08a75b26-adcd-455a-a212-1bdb14ccebe9
+      field_logo: {  }
+    -
+      vid: category
+      tid: '42'
+      langcode: en
+      name: 'Data Management'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '4'
+      uuid: 548234d6-f639-4ef8-88fe-506d605ca16d
+      field_logo: {  }
+    -
+      vid: category
+      tid: '25'
+      langcode: en
+      name: 'Ducting and Piping Supports'
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '17'
+      uuid: d8deb35e-7168-4fec-83f5-f07db4c7183b
+      field_logo: {  }
+    -
+      vid: category
+      tid: '16'
+      langcode: en
+      name: 'Electrical Products'
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '3'
+      uuid: fba43260-4143-46f7-a25a-95364d13c922
+      field_logo: {  }
+    -
+      vid: category
+      tid: '11'
+      langcode: en
+      name: 'Environment Monitoring'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '2'
+      uuid: 14a8744f-1859-4848-94ed-68aa72726cec
+      field_logo: {  }
+    -
+      vid: category
+      tid: '2'
+      langcode: en
+      name: 'Environmental Monitoring'
+      description__value: null
+      description__format: null
+      weight: '59'
+      parent: '0'
+      uuid: af61ce5b-fd4b-4827-9977-7df6b56d7be1
+      field_logo: {  }
+    -
+      vid: category
+      tid: '64'
+      langcode: en
+      name: 'External & Industrial Vibrators'
+      description__value: null
+      description__format: null
+      weight: '8'
+      parent: '1'
+      uuid: 94e01325-50eb-45d4-a6c7-56927fcbad82
+      field_logo: {  }
+    -
+      vid: category
+      tid: '65'
+      langcode: en
+      name: 'Floor Grinders/Polishing Machine'
+      description__value: null
+      description__format: null
+      weight: '9'
+      parent: '1'
+      uuid: dc57fa1d-e170-4333-ad7d-7f3b3727a304
+      field_logo: {  }
+    -
+      vid: category
+      tid: '66'
+      langcode: en
+      name: 'Floor Planners/Scarifier Machine'
+      description__value: null
+      description__format: null
+      weight: '10'
+      parent: '1'
+      uuid: 46f7c38b-c00c-412a-bbfa-072b3c8242ff
+      field_logo: {  }
+    -
+      vid: category
+      tid: '67'
+      langcode: en
+      name: 'Floor Saw/Asphalt Cutter Machine'
+      description__value: null
+      description__format: null
+      weight: '11'
+      parent: '1'
+      uuid: 8a97fdf1-b726-4dec-91fa-6022e470fd9f
+      field_logo: {  }
+    -
+      vid: category
+      tid: '35'
+      langcode: en
+      name: 'Flow and Automatic Sampling'
+      description__value: null
+      description__format: null
+      weight: '3'
+      parent: '12'
+      uuid: 0b91b30d-0494-497f-ad21-a30377315aa3
+      field_logo: {  }
+    -
+      vid: category
+      tid: '36'
+      langcode: en
+      name: 'Gas Detection'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '13'
+      uuid: 9ab1cd35-69ae-462d-a3f9-b8cbb01afc80
+      field_logo: {  }
+    -
+      vid: category
+      tid: '68'
+      langcode: en
+      name: Generators
+      description__value: null
+      description__format: null
+      weight: '12'
+      parent: '1'
+      uuid: 0e2e48b2-499c-4966-bb47-a35c7a688a37
+      field_logo: {  }
+    -
+      vid: category
+      tid: '22'
+      langcode: en
+      name: 'Grease Traps'
+      description__value: null
+      description__format: null
+      weight: '3'
+      parent: '15'
+      uuid: fad8786f-3076-47f0-83f6-ea2e7d2b3a68
+      field_logo: {  }
+    -
+      vid: category
+      tid: '33'
+      langcode: en
+      name: 'Ground Water'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '12'
+      uuid: 085cd1b9-290b-4726-a169-e6360015849d
+      field_logo:
+        -
+          target_id: '33'
+          alt: ''
+          title: ''
+          width: '64'
+          height: '64'
+    -
+      vid: category
+      tid: '19'
+      langcode: en
+      name: 'GRP Fabricated Products'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '15'
+      uuid: 9e89742f-00ab-43b7-b521-5f48aba119ee
+      field_logo: {  }
+    -
+      vid: category
+      tid: '13'
+      langcode: en
+      name: 'Health and Safety'
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '2'
+      uuid: bd935ec3-d154-4d1b-8c69-9e708bdec124
+      field_logo: {  }
+    -
+      vid: category
+      tid: '69'
+      langcode: en
+      name: 'High Frequency Convertor & Pokers'
+      description__value: null
+      description__format: null
+      weight: '13'
+      parent: '1'
+      uuid: 76679505-f405-4e4c-93ca-9d2d6c6c65cb
+      field_logo: {  }
+    -
+      vid: category
+      tid: '17'
+      langcode: en
+      name: 'HVAC Products'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '3'
+      uuid: 4f0bbf02-eddf-458c-96c2-cb3ad3cec3bf
+      field_logo: {  }
+    -
+      vid: category
+      tid: '12'
+      langcode: en
+      name: Hydrometry
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '2'
+      uuid: 1f63cbff-6d6b-4214-b4f6-51256c786ea7
+      field_logo: {  }
+    -
+      vid: category
+      tid: '4'
+      langcode: en
+      name: IT
+      description__value: null
+      description__format: null
+      weight: '60'
+      parent: '0'
+      uuid: cbbd19a1-a2fa-4b57-959b-d6403dffb616
+      field_logo: {  }
+    -
+      vid: category
+      tid: '45'
+      langcode: en
+      name: 'IT Infrastructure Solutions'
+      description__value: null
+      description__format: null
+      weight: '3'
+      parent: '4'
+      uuid: 78091003-afc8-4fe6-b265-d01691c11beb
+      field_logo: {  }
+    -
+      vid: category
+      tid: '70'
+      langcode: en
+      name: 'Material Handling/Lifting Equipments'
+      description__value: null
+      description__format: null
+      weight: '14'
+      parent: '1'
+      uuid: 4451d587-f708-460f-802d-492cebcdf9b5
+      field_logo: {  }
+    -
+      vid: category
+      tid: '3'
+      langcode: en
+      name: MEP
+      description__value: null
+      description__format: null
+      weight: '58'
+      parent: '0'
+      uuid: c156431c-bb6a-42a2-9e08-e51bf3c38738
+      field_logo: {  }
+    -
+      vid: category
+      tid: '31'
+      langcode: en
+      name: Meteorology
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '11'
+      uuid: 855ebf22-99f5-4e7b-a97e-2deb8afa4914
+      field_logo:
+        -
+          target_id: '32'
+          alt: ''
+          title: ''
+          width: '64'
+          height: '64'
+    -
+      vid: category
+      tid: '71'
+      langcode: en
+      name: 'Mobile Tower Lights'
+      description__value: null
+      description__format: null
+      weight: '15'
+      parent: '1'
+      uuid: 680742d6-e548-4e30-bea7-8556cfb6a2cf
+      field_logo: {  }
+    -
+      vid: category
+      tid: '72'
+      langcode: en
+      name: 'Mortar & Pan Mixers'
+      description__value: null
+      description__format: null
+      weight: '16'
+      parent: '1'
+      uuid: dd4b337d-7799-497c-9993-f62bafb6da2d
+      field_logo: {  }
+    -
+      vid: category
+      tid: '30'
+      langcode: en
+      name: 'Noise Monitoring'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '11'
+      uuid: d7681c66-ac6e-4e92-8f71-8d3555b65812
+      field_logo: {  }
+    -
+      vid: category
+      tid: '15'
+      langcode: en
+      name: 'Plumbing Products'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '3'
+      uuid: ddf69074-fb1c-4989-835d-9e67cd817797
+      field_logo:
+        -
+          target_id: '26'
+          alt: ''
+          title: ''
+          width: '64'
+          height: '64'
+    -
+      vid: category
+      tid: '73'
+      langcode: en
+      name: 'Power/Ride On Trowels'
+      description__value: null
+      description__format: null
+      weight: '17'
+      parent: '1'
+      uuid: edb60b40-5d60-440c-9b56-ce105e566cfd
+      field_logo: {  }
+    -
+      vid: category
+      tid: '18'
+      langcode: en
+      name: 'PVC Fabricated Products'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '15'
+      uuid: 3e7e6b1b-b364-4196-94ac-8123053cb4e3
+      field_logo: {  }
+    -
+      vid: category
+      tid: '37'
+      langcode: en
+      name: 'Radiation Detectors'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '13'
+      uuid: 3b3265df-0c22-4ab7-9f47-55fdba05ba35
+      field_logo:
+        -
+          target_id: '35'
+          alt: ''
+          title: ''
+          width: '64'
+          height: '64'
+    -
+      vid: category
+      tid: '74'
+      langcode: en
+      name: 'Roller/Plate Compactors'
+      description__value: null
+      description__format: null
+      weight: '18'
+      parent: '1'
+      uuid: 6c278e00-8485-4a79-bd3c-8e482bf6f432
+      field_logo: {  }
+    -
+      vid: category
+      tid: '20'
+      langcode: en
+      name: 'SS/GI/MS Fabricated Products'
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '15'
+      uuid: 16c1ed44-e8a3-4123-a301-6d0903ff3025
+      field_logo: {  }
+    -
+      vid: category
+      tid: '75'
+      langcode: en
+      name: 'Steel Structure ,Metal Fabrication & Container Modulation'
+      description__value: null
+      description__format: null
+      weight: '19'
+      parent: '1'
+      uuid: d9e3e07e-2ede-4aa2-a330-631a250b24a8
+      field_logo: {  }
+    -
+      vid: category
+      tid: '32'
+      langcode: en
+      name: Surface
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '12'
+      uuid: ff252e7e-75d3-45fc-96b0-41ae1de9f111
+      field_logo: {  }
+    -
+      vid: category
+      tid: '26'
+      langcode: en
+      name: Switches
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '16'
+      uuid: 9fd2f4b1-90d0-4552-b5b4-0d2470b4b204
+      field_logo: {  }
+    -
+      vid: category
+      tid: '76'
+      langcode: en
+      name: 'Tamping Rammers'
+      description__value: null
+      description__format: null
+      weight: '20'
+      parent: '1'
+      uuid: b2a3a838-477e-4a17-9002-d1d129defb00
+      field_logo: {  }
+    -
+      vid: category
+      tid: '40'
+      langcode: en
+      name: Telemetry
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '14'
+      uuid: b7abdb19-33c5-4d6b-bf17-0855c67e3644
+      field_logo: {  }
+    -
+      vid: category
+      tid: '14'
+      langcode: en
+      name: 'Telemetry & Telecommunication'
+      description__value: null
+      description__format: null
+      weight: '3'
+      parent: '2'
+      uuid: 39676098-ea72-4225-a380-be6f7fa0183f
+      field_logo: {  }
+    -
+      vid: category
+      tid: '77'
+      langcode: en
+      name: 'Tile Cutter'
+      description__value: null
+      description__format: null
+      weight: '21'
+      parent: '1'
+      uuid: dcdc5e7a-47cd-49b2-b0da-2c9e5009cb9c
+      field_logo: {  }
+    -
+      vid: category
+      tid: '24'
+      langcode: en
+      name: 'Ventilation Products'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '17'
+      uuid: 8fef93d5-d067-4d38-9cf7-7528e55eeb65
+      field_logo:
+        -
+          target_id: '30'
+          alt: ''
+          title: ''
+          width: '64'
+          height: '64'
+    -
+      vid: category
+      tid: '34'
+      langcode: en
+      name: 'Water Quality'
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '12'
+      uuid: aa6021d5-b2d5-4c47-9e9f-12ba9da2f1d1
+      field_logo:
+        -
+          target_id: '34'
+          alt: ''
+          title: ''
+          width: '64'
+          height: '64'
+    -
+      vid: category
+      tid: '28'
+      langcode: en
+      name: 'Wiring Accessories'
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '16'
+      uuid: a3d59b44-1c0d-41f0-8c14-0c7377fcfaf6
+      field_logo: {  }
+    -
+      vid: category
+      tid: '78'
+      langcode: en
+      name: 'Zone 2 Certified Oil Field Construction Equipments'
+      description__value: null
+      description__format: null
+      weight: '22'
+      parent: '1'
+      uuid: 015af9ed-68d0-4b30-b5ac-1b17d3a0284b
+      field_logo: {  }
+  tags: {  }
 blocks:
   -
     info: 'Our Story'

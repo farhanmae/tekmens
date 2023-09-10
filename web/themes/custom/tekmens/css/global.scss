@@ -193,13 +193,13 @@ header{
 // Footer
 .quote-wrapper{
     padding: 30px 0;
-    background-color: $brand-yellow;
+    background-color: $brand-pink;
     .quote-text{
         position: relative;
         padding-left: 50px;
         &:before{
             content: "\F23A";
-            color: $brand-red;
+            color: $brand-white;
             font-family: $icon;
             position: absolute;
             left: 15px;
@@ -210,19 +210,19 @@ header{
             font-weight: 700;
             font-size: 28px;
             line-height: 1;
-            color: $brand-red;
+            color: $brand-white;
         }
         p{
             margin-bottom: 0;
-            color: $text-color;
+            color: $brand-white;
             font-weight: 600;
         }
     }   
     .quote-link{
         text-align: right;
         button{
-            background-color: $brand-red;
-            color: $brand-white;
+            background-color: $brand-white;
+            color: $brand-dark-gray;
             transition: $transition;
             border: 1px solid $brand-red;
             border-radius: 4px;
@@ -230,7 +230,7 @@ header{
             font-size: 18px;
             width: 100%;
             &:hover{
-                background-color: $brand-pink;
+                background-color: $light-gray;
             }
         }
     }

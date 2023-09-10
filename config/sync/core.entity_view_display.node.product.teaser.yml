@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.product.field_manufacturing_origin
     - field.field.node.product.field_parameters
     - field.field.node.product.field_sector
+    - field.field.node.product.field_specs
     - field.field.node.product.field_supplier_name
     - node.type.product
   module:
@@ -43,4 +44,5 @@ hidden:
   field_manufacturing_origin: true
   field_parameters: true
   field_sector: true
+  field_specs: true
   field_supplier_name: true

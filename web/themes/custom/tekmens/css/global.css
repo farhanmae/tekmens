@@ -155,7 +155,7 @@ header.fixed .navbar .navbar-toggler[aria-expanded=false] {
 
 .quote-wrapper {
   padding: 30px 0;
-  background-color: #ffd224;
+  background-color: #f9004d;
 }
 .quote-wrapper .quote-text {
   position: relative;
@@ -163,7 +163,7 @@ header.fixed .navbar .navbar-toggler[aria-expanded=false] {
 }
 .quote-wrapper .quote-text:before {
   content: "\f23a";
-  color: #f81f01;
+  color: #fcfeff;
   font-family: "bootstrap-icons";
   position: absolute;
   left: 15px;
@@ -174,19 +174,19 @@ header.fixed .navbar .navbar-toggler[aria-expanded=false] {
   font-weight: 700;
   font-size: 28px;
   line-height: 1;
-  color: #f81f01;
+  color: #fcfeff;
 }
 .quote-wrapper .quote-text p {
   margin-bottom: 0;
-  color: #4d5b7c;
+  color: #fcfeff;
   font-weight: 600;
 }
 .quote-wrapper .quote-link {
   text-align: right;
 }
 .quote-wrapper .quote-link button {
-  background-color: #f81f01;
-  color: #fcfeff;
+  background-color: #fcfeff;
+  color: #343a40;
   transition: all 0.2s ease-in-out;
   border: 1px solid #f81f01;
   border-radius: 4px;
@@ -195,7 +195,7 @@ header.fixed .navbar .navbar-toggler[aria-expanded=false] {
   width: 100%;
 }
 .quote-wrapper .quote-link button:hover {
-  background-color: #f9004d;
+  background-color: #eaecef;
 }
 
 #page-footer {

@@ -200,7 +200,7 @@
             text-align: center;
             font-size: 42px;
             font-weight: 700;
-            color: $brand-pink;
+            color: $dark-gray;
             margin-bottom: 30px;
         }
         .view-sectors{
@@ -258,6 +258,7 @@
                             a{
                                 text-decoration: none;
                                 color: $text-color;
+                                border-bottom: 1px solid;
                             }
                         }
                         .edit-link{
@@ -371,7 +372,7 @@
             text-align: center;
             font-size: 42px;
             font-weight: 700;
-            color: $brand-dark-gray;
+            color: $dark-gray;
             margin-bottom: 30px;
         }
         .view-brands{
@@ -384,17 +385,18 @@
                 margin-right: calc(-.5 * var(--bs-gutter-x));
                 margin-left: calc(-.5 * var(--bs-gutter-x));
                 align-items: center;
+                justify-content: center !important;
                 .views-row{
                     display: flex;
                     align-items: center;
                     .views-field-field-logo{
                         width: 100%;
                         text-align: center;
-                        filter: grayscale(1);
+                        // filter: grayscale(1);
                         transition: $transition;
-                        &:hover{
-                            filter: grayscale(0);
-                        }
+                        // &:hover{
+                        //     filter: grayscale(0);
+                        // }
                     }
                 }
             }
