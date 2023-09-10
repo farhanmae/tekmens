@@ -20,7 +20,8 @@
     ],
     "require": {
         "composer/installers": "^1.9",
-        "drupal/admin_toolbar": "3.3",
+        "cweagans/composer-patches": "^1.7",
+        "drupal/admin_toolbar": "3.4",
         "drupal/block_content_permissions": "1.11",
         "drupal/bootstrap5": "3.0",
         "drupal/core-composer-scaffold": "^9",
@@ -40,7 +41,9 @@
         "drupal/slick": "2.7",
         "drupal/slick_extras": "^1.0@RC",
         "drupal/slick_views": "2.6",
-        "drupal/structure_sync": "2.0",
+        "drupal/structure_sync": "^2.0",
+        "drupal/taxonomy_import": "^2.0",
+        "drupal/taxonomy_menu_ui": "3.0",
         "drupal/twig_tweak": "3.2",
         "drupal/vapn": "1.5",
         "drupal/webform": "^6.1",
@@ -59,7 +62,8 @@
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
-            "oomphinc/composer-installers-extender": true
+            "oomphinc/composer-installers-extender": true,
+            "cweagans/composer-patches": true
         }
     },
     "extra": {
@@ -117,6 +121,8 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        },
+        "patches": {
         }
     },
     "require-dev": {
