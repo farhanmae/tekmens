@@ -167,6 +167,25 @@
   width: 100%;
   margin: 15px auto;
 }
+#page-content #block-tekmens-content .field--name-body table {
+  width: 100%;
+}
+#page-content #block-tekmens-content .field--name-body table thead {
+  background: #c6c9d8;
+}
+#page-content #block-tekmens-content .field--name-body table thead tr th {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #f9f9fa;
+}
+#page-content #block-tekmens-content .field--name-body table tbody tr td {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #f9f9fa;
+}
+#page-content #block-tekmens-content .field--name-body table tbody tr:nth-child(even) {
+  background-color: #eaecef;
+}
 
 .page-node-type-page #page-content #block-tekmens-ourstory {
   padding: 30px 0;
