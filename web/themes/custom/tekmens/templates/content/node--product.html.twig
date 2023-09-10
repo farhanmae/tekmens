@@ -122,14 +122,16 @@
         </div>
       </div>
     </div>
-    <div class="section-2">
-      <div class="row">
-        <div class="col-12">
-          <div class="wrapper">
-            {{ content.body }}
+    {% if node.body is not empty %}
+      <div class="section-2">
+        <div class="row">
+          <div class="col-12">
+            <div class="wrapper">
+              {{ content.body }}
+            </div>
           </div>
-        </div>
-    </div>
+      </div>
+    {% endif %}
     
   </div>
 
