@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.product.body
     - field.field.node.product.field_application
+    - field.field.node.product.field_attachment
     - field.field.node.product.field_brand
     - field.field.node.product.field_category
     - field.field.node.product.field_image
@@ -38,6 +39,7 @@ content:
     region: content
 hidden:
   field_application: true
+  field_attachment: true
   field_brand: true
   field_category: true
   field_image: true

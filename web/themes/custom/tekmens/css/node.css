@@ -507,6 +507,59 @@
 .page-node-type-product #page-content .field--name-field-parameters .field__item {
   color: #343a40;
 }
+.page-node-type-product #page-content .field--name-field-specs p strong {
+  color: #4d5b7c;
+}
+.page-node-type-product #page-content .attachment .view-product a {
+  text-decoration: none;
+  background: #eaecef;
+  display: inline-block;
+  border-radius: 6px;
+}
+.page-node-type-product #page-content .attachment .view-product a .text {
+  background: #eaecef;
+  padding: 15px 17px 15px 19px;
+  color: #343a40;
+  text-decoration: none;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  display: inline-block;
+  font-weight: 600;
+}
+.page-node-type-product #page-content .attachment .view-product a .icon {
+  background: #f9004d;
+  padding: 15px 17px 15px 19px;
+  text-decoration: none;
+  color: #fcfeff;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+  display: inline-block;
+}
+.page-node-type-product #page-content #block-tekmens-content {
+  margin-bottom: 0;
+}
+.page-node-type-product #page-content .section-2 {
+  width: 114%;
+  margin-left: -7%;
+  overflow: hidden;
+  background: #eaecef;
+  padding: 15px;
+}
+.page-node-type-product #page-content .section-2 .wrapper {
+  background: #f9f9fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+.page-node-type-product #page-content .section-2 h2 {
+  margin-top: 0 !important;
+  font-size: 1.75rem;
+  border-bottom: none;
+}
+.page-node-type-product #page-content .section-2 h3 {
+  margin-top: 0 !important;
+  font-size: 1.5rem;
+  border-bottom: none;
+}
 
 .page-node-type-resource #page-content #block-tekmens-page-title {
   background-color: #343a40;
@@ -653,6 +706,17 @@
   .page-node-14 #page-content #block-tekmens-content {
     width: 100%;
   }
+  .page-node-type-product #page-content .section-2 {
+    width: 132%;
+    margin-left: -16%;
+    margin-top: 30px;
+    padding: 40px 0;
+  }
+  .page-node-type-product #page-content .section-2 .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+  }
 }
 @media (min-width: 992px) {
   #page-content #block-tekmens-content {
@@ -680,5 +744,12 @@
   }
   .page-node-14 #page-content #block-tekmens-content {
     width: 90%;
+  }
+  .page-node-type-product #page-content .section-2 {
+    width: 150%;
+    margin-left: -25%;
+  }
+  .page-node-type-product #page-content .section-2 .wrapper {
+    width: 75%;
   }
 }/*# sourceMappingURL=node.css.map */

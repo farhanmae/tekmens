@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.product.body
     - field.field.node.product.field_application
+    - field.field.node.product.field_attachment
     - field.field.node.product.field_brand
     - field.field.node.product.field_category
     - field.field.node.product.field_image
@@ -16,6 +17,7 @@ dependencies:
     - node.type.product
   module:
     - country
+    - file
     - image
     - text
     - user
@@ -37,6 +39,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 6
+    region: content
+  field_attachment:
+    type: file_url_plain
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
     region: content
   field_brand:
     type: entity_reference_label

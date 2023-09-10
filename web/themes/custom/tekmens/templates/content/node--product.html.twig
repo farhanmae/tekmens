@@ -99,19 +99,36 @@
   {% endif %}
 
   <div{{ content_attributes.addClass('node__content') }}>
-    <div class="product-title">
-      <div class="product-brand">{{ content.field_brand }}</div>
-      <h1 class="display-4 page-title">{{ label }}</h1>
+    <div class="section-1">
+      <div class="product-title">
+        <div class="product-brand">{{ content.field_brand }}</div>
+        <h1 class="display-4 page-title">{{ label }}</h1>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          {{ content.field_image }}
+          {# {{ content.field_supplier_name }}
+          {{ content.field_manufacturing_origin }} #}
+        </div>
+        <div class="col-12 col-md-8">
+          {{ content|without('field_image','field_brand','body','field_application','field_parameters','field_attachment') }}
+          <div class="attachment">
+            {{ drupal_view('product', 'attachment') }}
+          </div>
+        </div>
+        <div class="col-12">
+          {{ content.field_application }}
+          {{ content.field_parameters }}
+        </div>
+      </div>
     </div>
-    <div class="row">
-      <div class="col-12 col-md-4">
-        {{ content.field_image }}
-        {# {{ content.field_supplier_name }}
-        {{ content.field_manufacturing_origin }} #}
-      </div>
-      <div class="col-12 col-md-8">
-        {{ content|without('field_image','field_brand') }}
-      </div>
+    <div class="section-2">
+      <div class="row">
+        <div class="col-12">
+          <div class="wrapper">
+            {{ content.body }}
+          </div>
+        </div>
     </div>
     
   </div>
