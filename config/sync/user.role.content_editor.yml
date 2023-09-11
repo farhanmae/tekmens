@@ -72,6 +72,8 @@ permissions:
   - 'manipulate entityqueues'
   - 'update any basic block content'
   - 'update any basic_block_with_image block content'
+  - 'update featured_product_queue entityqueue'
+  - 'update home_page_category_queue entityqueue'
   - 'view any webform submission'
   - 'view own unpublished content'
   - 'view own webform submission'
