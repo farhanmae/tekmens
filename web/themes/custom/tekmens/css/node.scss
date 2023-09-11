@@ -623,28 +623,6 @@
                     
                 }
             }
-            ul{
-                padding-left: 0;
-                li{
-                    list-style: none;
-                    color: $brand-dark-gray;
-                    a{
-                        color: $text-color;
-                        text-decoration: none;
-                        transition: $transition;
-                        &:hover{
-                            color: $brand-dark-gray;
-                        }
-                    }
-                    &::before{
-                        content: "\F2D2";
-                        color: $text-color;
-                        font-family: $icon;
-                        margin-right: 10px;
-                        vertical-align: middle;
-                    }
-                }
-            }
             li{
                 strong{
                     color: $text-color;

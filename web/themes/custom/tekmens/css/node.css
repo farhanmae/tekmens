@@ -548,28 +548,6 @@
 .page-node-type-product #page-content .field--name-field-specs table tbody tr:nth-child(even) {
   background-color: #eaecef;
 }
-.page-node-type-product #page-content .field--name-field-specs ul {
-  padding-left: 0;
-}
-.page-node-type-product #page-content .field--name-field-specs ul li {
-  list-style: none;
-  color: #343a40;
-}
-.page-node-type-product #page-content .field--name-field-specs ul li a {
-  color: #4d5b7c;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-}
-.page-node-type-product #page-content .field--name-field-specs ul li a:hover {
-  color: #343a40;
-}
-.page-node-type-product #page-content .field--name-field-specs ul li::before {
-  content: "\f2d2";
-  color: #4d5b7c;
-  font-family: "bootstrap-icons";
-  margin-right: 10px;
-  vertical-align: middle;
-}
 .page-node-type-product #page-content .field--name-field-specs li strong {
   color: #4d5b7c;
 }
