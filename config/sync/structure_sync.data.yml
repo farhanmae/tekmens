@@ -1,3 +1,499 @@
+blocks:
+  -
+    info: 'Our Story'
+    langcode: en
+    uuid: 239cba96-2d20-42e1-a422-9cb9dae893f6
+    bundle: basic_block_with_image
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<h2>Our Story</h2><p>TEKMENS was born, when a few passionate youngsters came together to unlock the problems the engineering society faces. The users loved our combination of having various fields of expertise in engineering, environment, IT &amp; Data Management, MEP, and construction. We learned the art of integration, and come see what we can unlock.&nbsp;</p><p>TEKMENS is a professional organization unlocking bespoke, off-the-shelf engineering solutions with integrated competencies of environmental science, engineering, machinery, and technology. Our core expertise caters to delivering end-to-end solutions for environmental monitoring, Construction Machinery, MEP, and IT Solutions through data collection, data processing, product deliverable, data &amp; deliverable management, integration, and developing custom build software and applications. We unlock our collective responsibility &amp; commitments towards our environment, society, and the world.</p>'
+          summary: ''
+          format: basic_html
+      field_image:
+        -
+          target_id: '1'
+          alt: ''
+          title: ''
+          width: '2000'
+          height: '2000'
+  -
+    info: 'What We Do'
+    langcode: en
+    uuid: 4d8a2d02-01dc-47fc-9669-bd58af04ef19
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p>Tekmens business comprises of three major sector, are <strong>Construction</strong>, <strong>Envrionment</strong>,<strong> MEP</strong> and <strong>IT</strong></p>'
+          summary: ''
+          format: basic_html
+  -
+    info: 'Stats 1'
+    langcode: en
+    uuid: 1c756126-4c1a-486a-9550-29d797e24ee1
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p><strong>10+</strong><br>Years in Industry</p>'
+          summary: ''
+          format: basic_html
+  -
+    info: 'Stats 2'
+    langcode: en
+    uuid: cd23b22c-bcf0-45e2-ac47-6c3c1d30f841
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p><strong>500+</strong><br>Products</p>'
+          summary: ''
+          format: basic_html
+  -
+    info: 'Stats 3'
+    langcode: en
+    uuid: d127051a-3a58-4425-895a-437cce00b4df
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p><strong>100+</strong><br>Brands</p>'
+          summary: ''
+          format: basic_html
+  -
+    info: 'Stats 4'
+    langcode: en
+    uuid: ce8f6471-370d-40d9-a039-9285578b6b97
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p><strong>100+</strong><br>Suppliers</p>'
+          summary: ''
+          format: basic_html
+  -
+    info: 'Slide 1'
+    langcode: en
+    uuid: 632bb0d2-c9b2-492b-aafb-4b1d96e95e1d
+    bundle: basic_block_with_image
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p>We have the products you need.</p><p><a href="https://google.com">Explore</a></p>'
+          summary: ''
+          format: full_html
+      field_image:
+        -
+          target_id: '6'
+          alt: ''
+          title: ''
+          width: '2400'
+          height: '1600'
+  -
+    info: 'Slide 2'
+    langcode: en
+    uuid: 9ccb552a-204c-45f0-9beb-638e6b41a835
+    bundle: basic_block_with_image
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p>Better Service at Better Quality</p><p><a href="https://google.com">Get a Quote</a></p>'
+          summary: ''
+          format: full_html
+      field_image:
+        -
+          target_id: '7'
+          alt: ''
+          title: ''
+          width: '1920'
+          height: '1032'
+  -
+    info: 'Slide 3'
+    langcode: en
+    uuid: e35b6512-7cae-4416-b916-af21faec479c
+    bundle: basic_block_with_image
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p>Wide range of genuine products at competitive prices</p>'
+          summary: ''
+          format: full_html
+      field_image:
+        -
+          target_id: '5'
+          alt: ''
+          title: ''
+          width: '5760'
+          height: '3840'
+  -
+    info: 'Need help?'
+    langcode: en
+    uuid: 840cf593-55e3-413b-805d-a3f20e26c60c
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p>You''ve any question? Feel free to Contact with Us.&nbsp;</p><p>Call us for immediate support on this number.</p><p><a href="tel:+97123456789"><span class="phone">+971 2 3456789</span></a></p><p>Send us email for any kind of inquiry</p><p><a href="mailto:info@tekmens.ae"><span class="email">info@tekmens.ae</span></a></p>'
+          summary: ''
+          format: full_html
+menus:
+  -
+    menu_name: main
+    title: 'About Us'
+    parent: null
+    uri: 'internal:/about-us'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -50
+    langcode: en
+    uuid: d352f039-1032-43ca-8a6d-a28fc2b9cad8
+  -
+    menu_name: main
+    title: Applications
+    parent: null
+    uri: 'entity:node/28'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -49
+    langcode: en
+    uuid: 9fdfd5ed-d790-4884-afc7-056629e47430
+  -
+    menu_name: main
+    title: Products
+    parent: null
+    uri: 'internal:/products'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: true
+    weight: -48
+    langcode: en
+    uuid: 021bf9e2-b31a-4928-b79c-de32de166c0b
+  -
+    menu_name: main
+    title: Services
+    parent: null
+    uri: 'internal:/services'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -47
+    langcode: en
+    uuid: 9574002e-d27c-44b5-b8f8-3b388daabde4
+  -
+    menu_name: main
+    title: 'Case Studies'
+    parent: null
+    uri: 'internal:/resources/case-studies'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -46
+    langcode: en
+    uuid: 50cfd699-186b-488a-9e23-3e8e86dca72c
+  -
+    menu_name: main
+    title: Resources
+    parent: null
+    uri: 'internal:/resources/blogs'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: true
+    weight: -45
+    langcode: en
+    uuid: a602533c-9bfa-4fd3-b0cf-f88ad80a2a93
+  -
+    menu_name: main
+    title: 'Contact Us'
+    parent: null
+    uri: 'internal:/contact-us'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -44
+    langcode: en
+    uuid: 4f2f8647-0901-49db-b4e2-9dafe7daeb74
+  -
+    menu_name: footer-one
+    title: 'About Us'
+    parent: null
+    uri: 'internal:/about-us'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -50
+    langcode: en
+    uuid: b4b32c9e-6ad2-43b8-8336-ad6398d6c4a0
+  -
+    menu_name: footer-one
+    title: Applications
+    parent: null
+    uri: 'https://google.com'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -49
+    langcode: en
+    uuid: e9e141d9-c6fe-4494-9229-371b6d4d1005
+  -
+    menu_name: footer-one
+    title: Products
+    parent: null
+    uri: 'https://google.com'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -48
+    langcode: en
+    uuid: b4c08575-bd6f-49ab-bbee-0d5cec0129d3
+  -
+    menu_name: footer-one
+    title: Services
+    parent: null
+    uri: 'internal:/services'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -47
+    langcode: en
+    uuid: ab5cf08f-76cb-463f-985b-3d55883cf032
+  -
+    menu_name: footer-one
+    title: 'Case Studies'
+    parent: null
+    uri: 'internal:/resources/case-studies'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -46
+    langcode: en
+    uuid: 942e1f50-d84f-4ee3-bab3-6bddf24eeb0c
+  -
+    menu_name: footer-one
+    title: Resources
+    parent: null
+    uri: 'internal:/resources/blogs'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -45
+    langcode: en
+    uuid: c726c616-34c0-4f37-b910-f9d9cb391092
+  -
+    menu_name: footer-one
+    title: 'Contact Us'
+    parent: null
+    uri: 'internal:/contact-us'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -44
+    langcode: en
+    uuid: daeff13b-e74f-49f9-88f2-8bfcba90cfa1
+  -
+    menu_name: main
+    title: Blogs
+    parent: 'menu_link_content:a602533c-9bfa-4fd3-b0cf-f88ad80a2a93'
+    uri: 'internal:/resources/blogs'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -50
+    langcode: en
+    uuid: 93db1b06-65c4-47fb-860b-acd5abf12597
+  -
+    menu_name: main
+    title: 'Technical Data Sheets'
+    parent: 'menu_link_content:a602533c-9bfa-4fd3-b0cf-f88ad80a2a93'
+    uri: 'internal:/resources/technical-data-sheets'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 2be17d3f-fca9-431f-8ddf-4c4722846a64
+  -
+    menu_name: main
+    title: Manuals
+    parent: 'menu_link_content:a602533c-9bfa-4fd3-b0cf-f88ad80a2a93'
+    uri: 'internal:/resources/manuals'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: eb246dbc-000a-4c72-8f1a-a7d7c6d3a38c
+  -
+    menu_name: main
+    title: 'White Papers'
+    parent: 'menu_link_content:a602533c-9bfa-4fd3-b0cf-f88ad80a2a93'
+    uri: 'internal:/resources/white-papers'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 640a7a2e-ca43-4ad3-a2c7-2b69b2583d98
+  -
+    menu_name: resources
+    title: Blogs
+    parent: null
+    uri: 'internal:/resources/blogs'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: f75910f8-357c-4d6c-b681-96cf191e3703
+  -
+    menu_name: resources
+    title: Manuals
+    parent: null
+    uri: 'internal:/resources/manuals'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: d103c8a1-efb0-469e-9aaf-a063d52edef5
+  -
+    menu_name: resources
+    title: 'Technical Data Sheets'
+    parent: null
+    uri: 'internal:/resources/technical-data-sheets'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: fe85b931-6bf6-4793-b204-55d1c9fd49e4
+  -
+    menu_name: resources
+    title: 'White Papers'
+    parent: null
+    uri: 'internal:/resources/white-papers'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: f10be2c5-78b1-4bb2-a56e-d45e532a9861
+  -
+    menu_name: main
+    title: Dashboard
+    parent: null
+    uri: 'internal:/dashboard'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -43
+    langcode: en
+    uuid: 6f159c7d-86e8-4623-9e44-24da79c4b766
+  -
+    menu_name: main
+    title: 'Construction Equipments'
+    parent: 'menu_link_content:021bf9e2-b31a-4928-b79c-de32de166c0b'
+    uri: 'internal:/category/construction-machinery-solutions'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: true
+    weight: -50
+    langcode: en
+    uuid: fa0b8b42-d94e-4355-9c91-3781e8453e5e
+  -
+    menu_name: main
+    title: Environment
+    parent: 'menu_link_content:021bf9e2-b31a-4928-b79c-de32de166c0b'
+    uri: 'route:<nolink>'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -49
+    langcode: en
+    uuid: 866fae5f-8152-4cd5-a46d-eddae7a8a1b7
+  -
+    menu_name: main
+    title: 'MEP Products'
+    parent: 'menu_link_content:021bf9e2-b31a-4928-b79c-de32de166c0b'
+    uri: 'route:<nolink>'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -48
+    langcode: en
+    uuid: 3f57bfa7-3577-48a9-96ad-c4fc1691b6cd
+  -
+    menu_name: main
+    title: 'Air Compressor'
+    parent: 'menu_link_content:fa0b8b42-d94e-4355-9c91-3781e8453e5e'
+    uri: 'internal:/taxonomy/term/57'
+    link_title: null
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 1f2caa03-6a96-40d6-afd8-f8e5895064e4
+  -
+    menu_name: admin
+    title: 'Product Queue'
+    parent: system.admin_content
+    uri: 'internal:/admin/structure/entityqueue/featured_product_queue/featured_product_queue'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: a17034b6-0b83-41f0-a8e0-4e33e9159ef6
 taxonomies:
   brand:
     -
@@ -945,475 +1441,3 @@ taxonomies:
       uuid: 015af9ed-68d0-4b30-b5ac-1b17d3a0284b
       field_logo: {  }
   tags: {  }
-blocks:
-  -
-    info: 'Our Story'
-    langcode: en
-    uuid: 239cba96-2d20-42e1-a422-9cb9dae893f6
-    bundle: basic_block_with_image
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<h2>Our Story</h2><p>TEKMENS was born, when a few passionate youngsters came together to unlock the problems the engineering society faces. The users loved our combination of having various fields of expertise in engineering, environment, IT &amp; Data Management, MEP, and construction. We learned the art of integration, and come see what we can unlock.&nbsp;</p><p>TEKMENS is a professional organization unlocking bespoke, off-the-shelf engineering solutions with integrated competencies of environmental science, engineering, machinery, and technology. Our core expertise caters to delivering end-to-end solutions for environmental monitoring, Construction Machinery, MEP, and IT Solutions through data collection, data processing, product deliverable, data &amp; deliverable management, integration, and developing custom build software and applications. We unlock our collective responsibility &amp; commitments towards our environment, society, and the world.</p>'
-          summary: ''
-          format: basic_html
-      field_image:
-        -
-          target_id: '1'
-          alt: ''
-          title: ''
-          width: '2000'
-          height: '2000'
-  -
-    info: 'What We Do'
-    langcode: en
-    uuid: 4d8a2d02-01dc-47fc-9669-bd58af04ef19
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p>Tekmens business comprises of three major sector, are <strong>Construction</strong>, <strong>Envrionment</strong>,<strong> MEP</strong> and <strong>IT</strong></p>'
-          summary: ''
-          format: basic_html
-  -
-    info: 'Stats 1'
-    langcode: en
-    uuid: 1c756126-4c1a-486a-9550-29d797e24ee1
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p><strong>10+</strong><br>Years in Industry</p>'
-          summary: ''
-          format: basic_html
-  -
-    info: 'Stats 2'
-    langcode: en
-    uuid: cd23b22c-bcf0-45e2-ac47-6c3c1d30f841
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p><strong>500+</strong><br>Products</p>'
-          summary: ''
-          format: basic_html
-  -
-    info: 'Stats 3'
-    langcode: en
-    uuid: d127051a-3a58-4425-895a-437cce00b4df
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p><strong>100+</strong><br>Brands</p>'
-          summary: ''
-          format: basic_html
-  -
-    info: 'Stats 4'
-    langcode: en
-    uuid: ce8f6471-370d-40d9-a039-9285578b6b97
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p><strong>100+</strong><br>Suppliers</p>'
-          summary: ''
-          format: basic_html
-  -
-    info: 'Slide 1'
-    langcode: en
-    uuid: 632bb0d2-c9b2-492b-aafb-4b1d96e95e1d
-    bundle: basic_block_with_image
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p>We have the products you need.</p><p><a href="https://google.com">Explore</a></p>'
-          summary: ''
-          format: full_html
-      field_image:
-        -
-          target_id: '6'
-          alt: ''
-          title: ''
-          width: '2400'
-          height: '1600'
-  -
-    info: 'Slide 2'
-    langcode: en
-    uuid: 9ccb552a-204c-45f0-9beb-638e6b41a835
-    bundle: basic_block_with_image
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p>Better Service at Better Quality</p><p><a href="https://google.com">Get a Quote</a></p>'
-          summary: ''
-          format: full_html
-      field_image:
-        -
-          target_id: '7'
-          alt: ''
-          title: ''
-          width: '1920'
-          height: '1032'
-  -
-    info: 'Slide 3'
-    langcode: en
-    uuid: e35b6512-7cae-4416-b916-af21faec479c
-    bundle: basic_block_with_image
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p>Wide range of genuine products at competitive prices</p>'
-          summary: ''
-          format: full_html
-      field_image:
-        -
-          target_id: '5'
-          alt: ''
-          title: ''
-          width: '5760'
-          height: '3840'
-  -
-    info: 'Need help?'
-    langcode: en
-    uuid: 840cf593-55e3-413b-805d-a3f20e26c60c
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p>You''ve any question? Feel free to Contact with Us.&nbsp;</p><p>Call us for immediate support on this number.</p><p><a href="tel:+97123456789"><span class="phone">+971 2 3456789</span></a></p><p>Send us email for any kind of inquiry</p><p><a href="mailto:info@tekmens.ae"><span class="email">info@tekmens.ae</span></a></p>'
-          summary: ''
-          format: full_html
-menus:
-  -
-    menu_name: main
-    title: 'About Us'
-    parent: null
-    uri: 'internal:/about-us'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-50'
-    langcode: en
-    uuid: d352f039-1032-43ca-8a6d-a28fc2b9cad8
-  -
-    menu_name: main
-    title: Applications
-    parent: null
-    uri: 'entity:node/28'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-49'
-    langcode: en
-    uuid: 9fdfd5ed-d790-4884-afc7-056629e47430
-  -
-    menu_name: main
-    title: Products
-    parent: null
-    uri: 'internal:/products'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '1'
-    weight: '-48'
-    langcode: en
-    uuid: 021bf9e2-b31a-4928-b79c-de32de166c0b
-  -
-    menu_name: main
-    title: Services
-    parent: null
-    uri: 'internal:/services'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-47'
-    langcode: en
-    uuid: 9574002e-d27c-44b5-b8f8-3b388daabde4
-  -
-    menu_name: main
-    title: 'Case Studies'
-    parent: null
-    uri: 'internal:/resources/case-studies'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-46'
-    langcode: en
-    uuid: 50cfd699-186b-488a-9e23-3e8e86dca72c
-  -
-    menu_name: main
-    title: Resources
-    parent: null
-    uri: 'internal:/resources/blogs'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '1'
-    weight: '-45'
-    langcode: en
-    uuid: a602533c-9bfa-4fd3-b0cf-f88ad80a2a93
-  -
-    menu_name: main
-    title: 'Contact Us'
-    parent: null
-    uri: 'internal:/contact-us'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-44'
-    langcode: en
-    uuid: 4f2f8647-0901-49db-b4e2-9dafe7daeb74
-  -
-    menu_name: footer-one
-    title: 'About Us'
-    parent: null
-    uri: 'internal:/about-us'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-50'
-    langcode: en
-    uuid: b4b32c9e-6ad2-43b8-8336-ad6398d6c4a0
-  -
-    menu_name: footer-one
-    title: Applications
-    parent: null
-    uri: 'https://google.com'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-49'
-    langcode: en
-    uuid: e9e141d9-c6fe-4494-9229-371b6d4d1005
-  -
-    menu_name: footer-one
-    title: Products
-    parent: null
-    uri: 'https://google.com'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-48'
-    langcode: en
-    uuid: b4c08575-bd6f-49ab-bbee-0d5cec0129d3
-  -
-    menu_name: footer-one
-    title: Services
-    parent: null
-    uri: 'internal:/services'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-47'
-    langcode: en
-    uuid: ab5cf08f-76cb-463f-985b-3d55883cf032
-  -
-    menu_name: footer-one
-    title: 'Case Studies'
-    parent: null
-    uri: 'internal:/resources/case-studies'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-46'
-    langcode: en
-    uuid: 942e1f50-d84f-4ee3-bab3-6bddf24eeb0c
-  -
-    menu_name: footer-one
-    title: Resources
-    parent: null
-    uri: 'internal:/resources/blogs'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-45'
-    langcode: en
-    uuid: c726c616-34c0-4f37-b910-f9d9cb391092
-  -
-    menu_name: footer-one
-    title: 'Contact Us'
-    parent: null
-    uri: 'internal:/contact-us'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-44'
-    langcode: en
-    uuid: daeff13b-e74f-49f9-88f2-8bfcba90cfa1
-  -
-    menu_name: main
-    title: Blogs
-    parent: 'menu_link_content:a602533c-9bfa-4fd3-b0cf-f88ad80a2a93'
-    uri: 'internal:/resources/blogs'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-50'
-    langcode: en
-    uuid: 93db1b06-65c4-47fb-860b-acd5abf12597
-  -
-    menu_name: main
-    title: 'Technical Data Sheets'
-    parent: 'menu_link_content:a602533c-9bfa-4fd3-b0cf-f88ad80a2a93'
-    uri: 'internal:/resources/technical-data-sheets'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '0'
-    langcode: en
-    uuid: 2be17d3f-fca9-431f-8ddf-4c4722846a64
-  -
-    menu_name: main
-    title: Manuals
-    parent: 'menu_link_content:a602533c-9bfa-4fd3-b0cf-f88ad80a2a93'
-    uri: 'internal:/resources/manuals'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '0'
-    langcode: en
-    uuid: eb246dbc-000a-4c72-8f1a-a7d7c6d3a38c
-  -
-    menu_name: main
-    title: 'White Papers'
-    parent: 'menu_link_content:a602533c-9bfa-4fd3-b0cf-f88ad80a2a93'
-    uri: 'internal:/resources/white-papers'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '0'
-    langcode: en
-    uuid: 640a7a2e-ca43-4ad3-a2c7-2b69b2583d98
-  -
-    menu_name: resources
-    title: Blogs
-    parent: null
-    uri: 'internal:/resources/blogs'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '0'
-    langcode: en
-    uuid: f75910f8-357c-4d6c-b681-96cf191e3703
-  -
-    menu_name: resources
-    title: Manuals
-    parent: null
-    uri: 'internal:/resources/manuals'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '0'
-    langcode: en
-    uuid: d103c8a1-efb0-469e-9aaf-a063d52edef5
-  -
-    menu_name: resources
-    title: 'Technical Data Sheets'
-    parent: null
-    uri: 'internal:/resources/technical-data-sheets'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '0'
-    langcode: en
-    uuid: fe85b931-6bf6-4793-b204-55d1c9fd49e4
-  -
-    menu_name: resources
-    title: 'White Papers'
-    parent: null
-    uri: 'internal:/resources/white-papers'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '0'
-    langcode: en
-    uuid: f10be2c5-78b1-4bb2-a56e-d45e532a9861
-  -
-    menu_name: main
-    title: Dashboard
-    parent: null
-    uri: 'internal:/dashboard'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-43'
-    langcode: en
-    uuid: 6f159c7d-86e8-4623-9e44-24da79c4b766
-  -
-    menu_name: main
-    title: 'Construction Equipments'
-    parent: 'menu_link_content:021bf9e2-b31a-4928-b79c-de32de166c0b'
-    uri: 'route:<nolink>'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '1'
-    weight: '-50'
-    langcode: en
-    uuid: fa0b8b42-d94e-4355-9c91-3781e8453e5e
-  -
-    menu_name: main
-    title: Environment
-    parent: 'menu_link_content:021bf9e2-b31a-4928-b79c-de32de166c0b'
-    uri: 'route:<nolink>'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-49'
-    langcode: en
-    uuid: 866fae5f-8152-4cd5-a46d-eddae7a8a1b7
-  -
-    menu_name: main
-    title: 'MEP Products'
-    parent: 'menu_link_content:021bf9e2-b31a-4928-b79c-de32de166c0b'
-    uri: 'route:<nolink>'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-48'
-    langcode: en
-    uuid: 3f57bfa7-3577-48a9-96ad-c4fc1691b6cd

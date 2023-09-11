@@ -22,3 +22,7 @@ mlid:
   'menu_link_content:3f57bfa7-3577-48a9-96ad-c4fc1691b6cd':
     roles: {  }
     access_check: false
+  'menu_link_content:a17034b6-0b83-41f0-a8e0-4e33e9159ef6':
+    roles:
+      - content_editor
+    access_check: false
