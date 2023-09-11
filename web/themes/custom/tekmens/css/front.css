@@ -325,6 +325,56 @@
   font-family: "bootstrap-icons";
   opacity: 0.5;
 }
+#page-front .block-views-blockproducts-block-5 {
+  padding: 45px 0px;
+  transition: all 0.2s ease-in-out;
+}
+#page-front .block-views-blockproducts-block-5 h2 {
+  text-align: left;
+  font-size: 32px;
+  font-weight: 700;
+  color: #343a40;
+  margin: 0 15px 30px;
+}
+#page-front .block-views-blockproducts-block-5 .view-products {
+  position: relative;
+}
+#page-front .block-views-blockproducts-block-5 .view-products .view-content {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  align-items: center;
+}
+#page-front .block-views-blockproducts-block-5 .view-products .view-content .views-row {
+  align-items: center;
+  border: 1px solid #e3e8f4;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+}
+#page-front .block-views-blockproducts-block-5 .view-products .view-content .views-row .views-field-field-image {
+  width: 100%;
+  flex: 0 0 auto;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 10px;
+}
+#page-front .block-views-blockproducts-block-5 .view-products .view-content .views-row .views-field-field-image img {
+  opacity: 0.8;
+  transition: all 0.2s ease-in-out;
+  position: relative !important;
+  text-align: center;
+}
+#page-front .block-views-blockproducts-block-5 .view-products .view-content .views-row .views-field-title {
+  display: none;
+}
+#page-front .block-views-blockproducts-block-5 .view-products .view-content .views-row:hover .views-field-field-image img {
+  opacity: 1;
+}
 #page-front .block-views-blockbrands-block-1 {
   padding: 45px 15px;
 }

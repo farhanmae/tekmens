@@ -1,6 +1,6 @@
 uuid: 26b2ecc1-5f43-4d1d-9769-7f329e6d8edc
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.categories
@@ -11,7 +11,7 @@ dependencies:
 id: views_block__categories_block_1
 theme: tekmens
 region: content_front
-weight: -12
+weight: -15
 provider: null
 plugin: 'views_block:categories-block_1'
 settings:
