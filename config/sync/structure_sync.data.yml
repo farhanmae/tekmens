@@ -29,7 +29,7 @@ blocks:
     fields:
       body:
         -
-          value: '<p>Tekmens business comprises of three major sector, are <strong>Construction</strong>, <strong>Envrionment</strong>,<strong> MEP</strong> and <strong>IT</strong></p>'
+          value: '<p>Tekmens business comprises five major sectors, <strong>Construction</strong>, <strong>Environment</strong>,<strong> MEP</strong>, <strong>Steel Fabrications,</strong> and <strong>Laboratories Products</strong></p>'
           summary: ''
           format: basic_html
   -
@@ -157,6 +157,93 @@ blocks:
           value: '<p>You''ve any question? Feel free to Contact with Us.&nbsp;</p><p>Call us for immediate support on this number.</p><p><a href="tel:+97123456789"><span class="phone">+971 2 3456789</span></a></p><p>Send us email for any kind of inquiry</p><p><a href="mailto:info@tekmens.ae"><span class="email">info@tekmens.ae</span></a></p>'
           summary: ''
           format: full_html
+  -
+    info: 'Product Gallery'
+    langcode: en
+    uuid: 19e9f5e8-26c6-4302-929b-37cdfb61085a
+    bundle: image_gallery
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_gallery:
+        -
+          target_id: '64'
+          alt: ''
+          title: ''
+          width: '275'
+          height: '183'
+        -
+          target_id: '65'
+          alt: ''
+          title: ''
+          width: '445'
+          height: '421'
+        -
+          target_id: '66'
+          alt: ''
+          title: ''
+          width: '700'
+          height: '635'
+        -
+          target_id: '67'
+          alt: ''
+          title: ''
+          width: '531'
+          height: '387'
+        -
+          target_id: '68'
+          alt: ''
+          title: ''
+          width: '642'
+          height: '441'
+        -
+          target_id: '69'
+          alt: ''
+          title: ''
+          width: '339'
+          height: '350'
+        -
+          target_id: '70'
+          alt: ''
+          title: ''
+          width: '740'
+          height: '555'
+        -
+          target_id: '71'
+          alt: ''
+          title: ''
+          width: '559'
+          height: '533'
+        -
+          target_id: '72'
+          alt: ''
+          title: ''
+          width: '532'
+          height: '512'
+        -
+          target_id: '73'
+          alt: ''
+          title: ''
+          width: '483'
+          height: '600'
+        -
+          target_id: '74'
+          alt: ''
+          title: ''
+          width: '300'
+          height: '533'
+        -
+          target_id: '75'
+          alt: ''
+          title: ''
+          width: '577'
+          height: '510'
+        -
+          target_id: '76'
+          alt: ''
+          title: ''
+          width: '320'
+          height: '495'
 menus:
   -
     menu_name: main
@@ -494,6 +581,30 @@ menus:
     weight: 0
     langcode: en
     uuid: a17034b6-0b83-41f0-a8e0-4e33e9159ef6
+  -
+    menu_name: main
+    title: 'Steel Fabrication'
+    parent: 'menu_link_content:021bf9e2-b31a-4928-b79c-de32de166c0b'
+    uri: 'route:<nolink>'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -47
+    langcode: en
+    uuid: 310efb47-15f5-45d6-b777-986c927ff3f1
+  -
+    menu_name: main
+    title: 'Laboratory Products'
+    parent: 'menu_link_content:021bf9e2-b31a-4928-b79c-de32de166c0b'
+    uri: 'route:<nolink>'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -46
+    langcode: en
+    uuid: 2f1ad5ce-d08b-4671-924e-06b0feb30a37
 taxonomies:
   brand:
     -

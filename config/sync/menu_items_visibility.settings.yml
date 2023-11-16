@@ -26,3 +26,9 @@ mlid:
     roles:
       - content_editor
     access_check: false
+  'menu_link_content:310efb47-15f5-45d6-b777-986c927ff3f1':
+    roles: {  }
+    access_check: false
+  'menu_link_content:2f1ad5ce-d08b-4671-924e-06b0feb30a37':
+    roles: {  }
+    access_check: false

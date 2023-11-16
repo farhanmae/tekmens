@@ -1,0 +1,30 @@
+uuid: 5af046f0-77ad-4c27-947f-1f1d2f1bfd67
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:image_gallery:19e9f5e8-26c6-4302-929b-37cdfb61085a'
+  module:
+    - block_content
+    - system
+  theme:
+    - tekmens
+id: productgallery_2
+theme: tekmens
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:19e9f5e8-26c6-4302-929b-37cdfb61085a'
+settings:
+  id: 'block_content:19e9f5e8-26c6-4302-929b-37cdfb61085a'
+  label: 'Product Gallery'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/5

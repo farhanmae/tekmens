@@ -319,6 +319,79 @@
                 }
             }
         }
+        // Gallery
+        #block-productgallery-2{
+            .slick{
+                .slick-list{
+                    .slick-track{
+                        .slick-slide{
+                            .slick__slide{
+                                .slide__content{
+                                    align-items: center;
+                                    display: flex;
+                                    flex-direction: column;
+                                    padding: 40px;
+                                    .media--slick{
+                                        width: 100%;
+                                        flex: 0 0 auto;
+                                        text-align: center;
+                                        transition: $transition;
+                                        margin-bottom: 10px;
+                                        transition: transform .2s;
+                                        .media__image{
+                                            opacity: .8;
+                                            transition: $transition;
+                                            position: relative !important;
+                                            text-align: center;
+                                            margin: 0 auto;
+                                            max-height: 180px;
+                                            width: auto;
+                                        }
+                                        &:hover{
+                                            transform: scale(1.1);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            nav.slick__arrow{
+                .slick-arrow{
+                    background: transparent;
+                    color: transparent;
+                    border: none;
+                    position: absolute;
+                    top: 50%;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    &::before{
+                        color: #ff6d2c;
+                        font-size: 36px;
+                        font-size: 2.25rem;
+                        font-family: "slick";
+                        line-height: 1;
+                        color: #ff6d2c;
+                        opacity: 0.75;
+                    }
+                    &.slick-prev{
+                        left: 0;
+                        &::before{
+                            content: "←";
+                            
+                        }
+                    }
+                    &.slick-next{
+                        right: 0;
+                        &::before{
+                            content: "→";
+                            
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -806,12 +879,21 @@
                 border: 2px solid $light-gray;
                 border-radius: 8px;
                 margin-top: 20px;
+                text-align: center;
+                // background-image: url(../img/help.png);
+                // background-repeat: no-repeat;
+                // padding-top: 320px;
+                .help-img{
+                    width: 90%;
+                    margin-bottom: 15px;
+                }
                 h2{
                     color: $brand-red;
                     margin-bottom: 15px;
                     font-weight: bolder;
                     font-size: 1.75rem;
                     clear: both;
+                    text-align: left;
                 }
                 p{
                     color: $brand-gray;

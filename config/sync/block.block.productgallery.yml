@@ -1,0 +1,25 @@
+uuid: cdc1a58e-b155-4225-8776-b4b4fb0d36d6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image_gallery:19e9f5e8-26c6-4302-929b-37cdfb61085a'
+  module:
+    - block_content
+  theme:
+    - tekmens
+id: productgallery
+theme: tekmens
+region: content_front
+weight: -14
+provider: null
+plugin: 'block_content:19e9f5e8-26c6-4302-929b-37cdfb61085a'
+settings:
+  id: 'block_content:19e9f5e8-26c6-4302-929b-37cdfb61085a'
+  label: 'Product Gallery'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

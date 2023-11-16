@@ -1,0 +1,8 @@
+uuid: 3412cb21-00df-4a5a-9026-eb96aaa7c2fd
+langcode: en
+status: true
+dependencies: {  }
+id: image_gallery
+label: 'Image Gallery'
+revision: 0
+description: 'A basic carousal block to showcase images.'

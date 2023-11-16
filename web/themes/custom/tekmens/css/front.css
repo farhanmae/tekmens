@@ -362,12 +362,16 @@
   text-align: center;
   transition: all 0.2s ease-in-out;
   margin-bottom: 10px;
+  transition: transform 0.2s;
 }
 #page-front .block-views-blockproducts-block-5 .view-products .view-content .views-row .views-field-field-image img {
   opacity: 0.8;
   transition: all 0.2s ease-in-out;
   position: relative !important;
   text-align: center;
+}
+#page-front .block-views-blockproducts-block-5 .view-products .view-content .views-row .views-field-field-image:hover {
+  transform: scale(1.1);
 }
 #page-front .block-views-blockproducts-block-5 .view-products .view-content .views-row .views-field-title {
   display: none;
@@ -404,6 +408,32 @@
   width: 100%;
   text-align: center;
   transition: all 0.2s ease-in-out;
+}
+#page-front #block-productgallery .slick .slick-list .slick-track .slick-slide .slick__slide .slide__content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+#page-front #block-productgallery .slick .slick-list .slick-track .slick-slide .slick__slide .slide__content .media--slick {
+  width: 100%;
+  flex: 0 0 auto;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 10px;
+  transition: transform 0.2s;
+}
+#page-front #block-productgallery .slick .slick-list .slick-track .slick-slide .slick__slide .slide__content .media--slick .media__image {
+  opacity: 0.8;
+  transition: all 0.2s ease-in-out;
+  position: relative !important;
+  text-align: center;
+  margin: 0 auto;
+  max-height: 180px;
+  width: auto;
+}
+#page-front #block-productgallery .slick .slick-list .slick-track .slick-slide .slick__slide .slide__content .media--slick:hover {
+  transform: scale(1.1);
 }
 
 @media (min-width: 576px) {

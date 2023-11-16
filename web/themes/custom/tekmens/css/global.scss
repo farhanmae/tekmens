@@ -411,6 +411,7 @@ header{
                 height: 200px;
                 overflow: hidden;
                 text-align: center;
+                transition: transform .2s;
                 .field-content{
                     height: 100%;
                     a{
@@ -424,6 +425,9 @@ header{
                             width: auto;
                         }
                     }
+                }
+                &:hover{
+                    transform: scale(1.1);
                 }
             }
             .views-field-title{
@@ -568,17 +572,20 @@ header{
         }
     }
     .menu.hierarchical-taxonomy-menu.block-taxonomymenu__menu{
+        width: 80%;
         .block-taxonomymenu__menu-item{
             display: inline-block;
-            width: auto;
+            width: 24%;
+            vertical-align: top;
             margin-bottom: 2px;
             a{
                 padding: 4px 8px;
+                min-height: 58px;
                 background-color: $light-gray;
                 border: 1px solid $brand-gray;
                 color: $text-color;
                 border-radius: 6px;
-                width: auto;
+                width: 100%;
                 display: inline-block;
                 text-decoration: none;
                 &:hover{
@@ -618,6 +625,6 @@ header{
     }    
     .menu.hierarchical-taxonomy-menu.block-taxonomymenu__menu{
         margin: 0 auto;
-        width: 70%;
+        width: 80%;
     }
 }
