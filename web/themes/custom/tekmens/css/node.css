@@ -551,6 +551,12 @@
   color: #4d5b7c;
   font-size: 36px;
 }
+.page-node-type-product #page-content .field--name-field-image {
+  transition: transform 0.2s;
+}
+.page-node-type-product #page-content .field--name-field-image:hover {
+  transform: scale(1.1);
+}
 .page-node-type-product #page-content .field--name-field-manufacturing-origin,
 .page-node-type-product #page-content .field--name-field-supplier-name {
   margin-bottom: 10px;
@@ -594,7 +600,7 @@
 }
 .page-node-type-product #page-content .field--name-field-specs table thead tr th {
   padding: 5px;
-  text-align: center;
+  text-align: left;
   border: 1px solid #f9f9fa;
 }
 .page-node-type-product #page-content .field--name-field-specs table tbody tr td {

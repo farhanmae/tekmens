@@ -994,7 +994,7 @@ taxonomies:
       name: 'Construction Machinery Solutions'
       description__value: null
       description__format: null
-      weight: '57'
+      weight: '0'
       parent: '0'
       uuid: a8d90f96-71a4-421c-b981-89b5de8238c0
       field_logo: {  }
@@ -1082,7 +1082,7 @@ taxonomies:
       name: 'Environmental Monitoring'
       description__value: null
       description__format: null
-      weight: '59'
+      weight: '2'
       parent: '0'
       uuid: af61ce5b-fd4b-4827-9977-7df6b56d7be1
       field_logo: {  }
@@ -1253,7 +1253,7 @@ taxonomies:
       name: IT
       description__value: null
       description__format: null
-      weight: '60'
+      weight: '5'
       parent: '0'
       uuid: cbbd19a1-a2fa-4b57-959b-d6403dffb616
       field_logo: {  }
@@ -1267,6 +1267,17 @@ taxonomies:
       weight: '3'
       parent: '4'
       uuid: 78091003-afc8-4fe6-b265-d01691c11beb
+      field_logo: {  }
+    -
+      vid: category
+      tid: '80'
+      langcode: en
+      name: 'Laboratories Products'
+      description__value: null
+      description__format: null
+      weight: '4'
+      parent: '0'
+      uuid: 6ae7557f-c918-4f56-8db5-b26c21a17aca
       field_logo: {  }
     -
       vid: category
@@ -1286,7 +1297,7 @@ taxonomies:
       name: MEP
       description__value: null
       description__format: null
-      weight: '58'
+      weight: '1'
       parent: '0'
       uuid: c156431c-bb6a-42a2-9e08-e51bf3c38738
       field_logo: {  }
@@ -1417,6 +1428,17 @@ taxonomies:
       weight: '2'
       parent: '15'
       uuid: 16c1ed44-e8a3-4123-a301-6d0903ff3025
+      field_logo: {  }
+    -
+      vid: category
+      tid: '79'
+      langcode: en
+      name: 'Steel Fabrications'
+      description__value: null
+      description__format: null
+      weight: '3'
+      parent: '0'
+      uuid: a1c6d83a-29cd-426c-ad26-2246b7ae8ac1
       field_logo: {  }
     -
       vid: category

@@ -637,6 +637,13 @@
                 font-size: 36px;
             }
         }
+        .field--name-field-image{
+            transition: transform .2s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        
         .field--name-field-manufacturing-origin,
         .field--name-field-supplier-name{
             margin-bottom: 10px;
@@ -677,7 +684,7 @@
                     tr{
                         th{
                             padding: 5px;
-                            text-align: center;
+                            text-align: left;
                             border: 1px solid $lighter-gray;
                         }
                     }
