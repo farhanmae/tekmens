@@ -11,7 +11,7 @@ skin: default
 breakpoints: 3
 optimized: false
 options:
-  options__active_tab: edit-options-settings
+  options__active_tab: edit-options-responsives
   settings:
     mobileFirst: false
     asNavFor: ''
@@ -145,7 +145,7 @@ options:
         unslick: false
         settings:
           adaptiveHeight: false
-          autoplay: false
+          autoplay: true
           pauseOnHover: false
           pauseOnDotsHover: false
           pauseOnFocus: false
@@ -154,15 +154,15 @@ options:
           centerMode: false
           centerPadding: 50px
           dots: false
-          draggable: false
+          draggable: true
           fade: false
           focusOnSelect: false
-          infinite: false
+          infinite: true
           initialSlide: 0
           respondTo: window
           rows: 1
-          slidesPerRow: 2
-          slidesToShow: 2
+          slidesPerRow: 1
+          slidesToShow: 1
           slidesToScroll: 1
           speed: 300
           swipe: true
