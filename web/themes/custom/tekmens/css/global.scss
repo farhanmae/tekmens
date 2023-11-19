@@ -47,7 +47,7 @@ header{
         .navbar-brand{
             font-weight: 600;
             font-size: 28px;
-            .logo-2{
+            .animation{
                 display: none;
             }
         }
@@ -147,9 +147,24 @@ header{
                 .logo-1{
                     display: none;
                 }
-                .logo-2{
-                    display: inline;
-                    height: 35px;
+                .animation{
+                    height: 45px;
+                    display: inline-block;
+                    padding-top: 10px;
+                    .logo-top{
+                        height: 35px;
+                        width:100%;
+                        background-image: url(../img/logo_top.png);
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        content: "";
+                        position: absolute;
+                        top: 8px;
+                        transition: top 0.3s ease;
+                    }
+                    .logo-2{
+                        height: 35px;
+                    }
                 }
             }
             .navbar-collapse {
@@ -552,8 +567,13 @@ header{
 
 @media (min-width: 768px) { 
     .navbar-brand {
+        .animation{
+            .logo-top{
+
+            }
+        }
         img{
-            height: 45px;
+            height: 35px;
         }
     }
     .quote-wrapper {

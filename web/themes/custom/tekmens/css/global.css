@@ -41,7 +41,7 @@ header nav .navbar-brand {
   font-weight: 600;
   font-size: 28px;
 }
-header nav .navbar-brand .logo-2 {
+header nav .navbar-brand .animation {
   display: none;
 }
 header nav .navbar-collapse .navbar-nav .menu--main .nav-item a {
@@ -123,8 +123,23 @@ header.fixed .navbar {
 header.fixed .navbar .navbar-brand .logo-1 {
   display: none;
 }
-header.fixed .navbar .navbar-brand .logo-2 {
-  display: inline;
+header.fixed .navbar .navbar-brand .animation {
+  height: 45px;
+  display: inline-block;
+  padding-top: 10px;
+}
+header.fixed .navbar .navbar-brand .animation .logo-top {
+  height: 35px;
+  width: 100%;
+  background-image: url(../img/logo_top.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  position: absolute;
+  top: 8px;
+  transition: top 0.3s ease;
+}
+header.fixed .navbar .navbar-brand .animation .logo-2 {
   height: 35px;
 }
 header.fixed .navbar .navbar-collapse .navbar-nav .menu--main .nav-item a {
@@ -477,7 +492,7 @@ header.fixed .navbar .navbar-toggler[aria-expanded=false] {
 
 @media (min-width: 768px) {
   .navbar-brand img {
-    height: 45px;
+    height: 35px;
   }
   .quote-wrapper .quote-text:before {
     left: 10px !important;
