@@ -11,7 +11,7 @@ dependencies:
 id: productgallery
 theme: tekmens
 region: content_front
-weight: -14
+weight: -15
 provider: null
 plugin: 'block_content:19e9f5e8-26c6-4302-929b-37cdfb61085a'
 settings:

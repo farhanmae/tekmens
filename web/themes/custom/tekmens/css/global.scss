@@ -134,6 +134,13 @@ header{
                 --bs-navbar-toggler-border-color: transparent !important;
             }
         }
+        .get-quote{
+            .btn{
+                border-radius: 4px;
+                transition: $transition;
+                font-weight: 600;
+            }
+        }
     }
     &.fixed{
         position: fixed;
@@ -311,6 +318,9 @@ header{
                     }
                     &.whatsapp::before{
                         content: "\F618";
+                    }
+                    &.linkedin::before{
+                        content: "\F472";
                     }
                 }
             }

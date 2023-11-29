@@ -11,7 +11,7 @@ dependencies:
 id: views_block__sectors_block_2
 theme: tekmens
 region: content_front
-weight: -15
+weight: -16
 provider: null
 plugin: 'views_block:sectors-block_2'
 settings:

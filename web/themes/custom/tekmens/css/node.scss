@@ -742,18 +742,8 @@
             margin-bottom: 0;
         }
         .section-2{
-            // width: 146%;
-            // margin-left: -24%;
-            // background: gray;
-            width: 114%;
-            margin-left: -7%;
-            overflow: hidden;
-            background: $light-gray;
-            padding: 15px;
             .wrapper{
-                background: $lighter-gray;
-                padding: 15px;
-                border-radius: 5px;
+                margin-top: 30px;
             }
             h2{
                 margin-top: 0 !important;
@@ -814,6 +804,9 @@
                 }
             }
         }
+    }
+    .quote-wrapper{
+        display: none;
     }
 }
 
@@ -1002,17 +995,7 @@
     }
     .page-node-type-product{
         #page-content{
-            .section-2{
-                width: 132%;
-                margin-left: -16%;
-                margin-top: 30px;
-                padding: 40px 0;
-                .wrapper{
-                    width: 80%;
-                    margin: 0 auto;
-                    padding: 40px;
-                }
-            }
+            
         }
     }
 }
@@ -1060,13 +1043,7 @@
     }
     .page-node-type-product{
         #page-content{
-            .section-2{
-                width: 150%;
-                margin-left: -25%;
-                .wrapper{
-                    width: 75%;
-                }
-            }
+            
         }
     }
 }
