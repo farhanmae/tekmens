@@ -178,6 +178,24 @@ display:
     display_plugin: block
     position: 1
     display_options:
+      pager:
+        type: some
+        options:
+          offset: 0
+          items_per_page: 4
+      style:
+        type: default
+        options:
+          grouping: {  }
+          row_class: 'col-6 mb-3 mb-md-0 col-md-3'
+          default_row_class: true
+      row:
+        type: fields
+        options: {  }
+      defaults:
+        pager: false
+        style: false
+        row: false
       display_extenders: {  }
     cache_metadata:
       max-age: -1
