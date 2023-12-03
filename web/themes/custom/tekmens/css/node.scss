@@ -813,6 +813,7 @@
 .path-products{
     #page-sidebar{
         .block-views-exposed-filter-blockproducts-page-1{
+            margin-top: 40px;
             #views-exposed-form-products-page-1{
                 .form-item-category{
                     label{
@@ -845,6 +846,9 @@
                                     &#edit-category-79,
                                     &#edit-category-80{
                                         display: none;
+                                    }
+                                    &.bef-link--selected{
+                                        background-color: $lighter-gray;
                                     }
                                 }
                                 &:last-child{

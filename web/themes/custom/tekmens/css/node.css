@@ -700,6 +700,9 @@
   display: none;
 }
 
+.path-products #page-sidebar .block-views-exposed-filter-blockproducts-page-1 {
+  margin-top: 40px;
+}
 .path-products #page-sidebar .block-views-exposed-filter-blockproducts-page-1 #views-exposed-form-products-page-1 .form-item-category label {
   display: none;
 }
@@ -728,6 +731,9 @@
 }
 .path-products #page-sidebar .block-views-exposed-filter-blockproducts-page-1 #views-exposed-form-products-page-1 .form-item-category .bef-links ul li a#edit-category-2, .path-products #page-sidebar .block-views-exposed-filter-blockproducts-page-1 #views-exposed-form-products-page-1 .form-item-category .bef-links ul li a#edit-category-3, .path-products #page-sidebar .block-views-exposed-filter-blockproducts-page-1 #views-exposed-form-products-page-1 .form-item-category .bef-links ul li a#edit-category-4, .path-products #page-sidebar .block-views-exposed-filter-blockproducts-page-1 #views-exposed-form-products-page-1 .form-item-category .bef-links ul li a#edit-category-79, .path-products #page-sidebar .block-views-exposed-filter-blockproducts-page-1 #views-exposed-form-products-page-1 .form-item-category .bef-links ul li a#edit-category-80 {
   display: none;
+}
+.path-products #page-sidebar .block-views-exposed-filter-blockproducts-page-1 #views-exposed-form-products-page-1 .form-item-category .bef-links ul li a.bef-link--selected {
+  background-color: #f9f9fa;
 }
 .path-products #page-sidebar .block-views-exposed-filter-blockproducts-page-1 #views-exposed-form-products-page-1 .form-item-category .bef-links ul li:last-child a {
   border-bottom: none;
