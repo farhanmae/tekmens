@@ -11,7 +11,7 @@ _core:
 id: tekmens_messages
 theme: tekmens
 region: content
-weight: -15
+weight: -17
 provider: null
 plugin: system_messages_block
 settings:

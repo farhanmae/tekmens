@@ -1,4 +1,4 @@
-uuid: 5be1f385-4e9d-4eb9-bc63-3dfcf9775b83
+uuid: 3a969363-7868-45fa-a46f-8890401d40e8
 langcode: en
 status: true
 dependencies:
@@ -6,12 +6,10 @@ dependencies:
     - system
   theme:
     - tekmens
-_core:
-  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
-id: tekmens_page_title
+id: pagetitle
 theme: tekmens
-region: content
-weight: -19
+region: content_above
+weight: 0
 provider: null
 plugin: page_title_block
 settings:
@@ -22,5 +20,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    negate: true
+    negate: false
     pages: /products

@@ -11,7 +11,7 @@ dependencies:
 id: resources
 theme: tekmens
 region: content
-weight: -10
+weight: -12
 provider: null
 plugin: 'system_menu_block:resources'
 settings:

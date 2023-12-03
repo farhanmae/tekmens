@@ -329,7 +329,8 @@ header{
 }
 
 // Page Title
-#page-content{
+#page-content,
+#page-product{
     .block-page-title-block{
         margin-left: -20px;
         margin-right: -20px;
@@ -639,7 +640,8 @@ header{
             max-height: 65px;
         }
     }
-    #page-content{
+    #page-content,
+    #page-product{
         .block-page-title-block{
             height: 450px;
             padding-left: 45px;

@@ -288,7 +288,8 @@ header.fixed .navbar .navbar-toggler[aria-expanded=false] {
   content: "\f472";
 }
 
-#page-content .block-page-title-block {
+#page-content .block-page-title-block,
+#page-product .block-page-title-block {
   margin-left: -20px;
   margin-right: -20px;
   margin-top: -120px;
@@ -300,7 +301,8 @@ header.fixed .navbar .navbar-toggler[aria-expanded=false] {
   display: flex !important;
   padding: 90px 0 0;
 }
-#page-content .block-page-title-block .page-title {
+#page-content .block-page-title-block .page-title,
+#page-product .block-page-title-block .page-title {
   color: #fcfeff;
   font-weight: 700;
   font-family: "Inter Tight", sans-serif;
@@ -540,11 +542,13 @@ header.fixed .navbar .navbar-toggler[aria-expanded=false] {
   .footer-brand img {
     max-height: 65px;
   }
-  #page-content .block-page-title-block {
+  #page-content .block-page-title-block,
+  #page-product .block-page-title-block {
     height: 450px;
     padding-left: 45px;
   }
-  #page-content .block-page-title-block .page-title {
+  #page-content .block-page-title-block .page-title,
+  #page-product .block-page-title-block .page-title {
     color: #fcfeff;
     font-weight: 700;
     font-family: "Inter Tight", sans-serif;

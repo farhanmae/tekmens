@@ -1,29 +1,28 @@
-uuid: d32163ed-2f44-4800-a364-c23e319ad3eb
+uuid: 84da311a-f01c-46b6-99af-35c43fb3ab6d
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.sectors
+    - views.view.products
   module:
     - system
     - views
   theme:
     - tekmens
-id: views_block__sectors_block_1
+id: exposedformproductspage_1
 theme: tekmens
-region: content
-weight: -2
+region: sidebar_first
+weight: -19
 provider: null
-plugin: 'views_block:sectors-block_1'
+plugin: 'views_exposed_filter_block:products-page_1'
 settings:
-  id: 'views_block:sectors-block_1'
+  id: 'views_exposed_filter_block:products-page_1'
   label: ''
   label_display: '0'
   provider: views
   views_label: ''
-  items_per_page: none
 visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /node/5
+    pages: /products

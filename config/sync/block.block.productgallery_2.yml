@@ -12,7 +12,7 @@ dependencies:
 id: productgallery_2
 theme: tekmens
 region: content
-weight: 0
+weight: -1
 provider: null
 plugin: 'block_content:19e9f5e8-26c6-4302-929b-37cdfb61085a'
 settings:

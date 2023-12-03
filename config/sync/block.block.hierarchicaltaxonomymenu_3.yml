@@ -10,7 +10,7 @@ dependencies:
 id: hierarchicaltaxonomymenu_3
 theme: tekmens
 region: content
-weight: -12
+weight: -14
 provider: null
 plugin: hierarchical_taxonomy_menu
 settings:

@@ -810,6 +810,74 @@
     }
 }
 
+.path-products{
+    #page-sidebar{
+        .block-views-exposed-filter-blockproducts-page-1{
+            #views-exposed-form-products-page-1{
+                .form-item-category{
+                    label{
+                        display: none;
+                    }
+                    .shs-container{
+                        display: none;
+                    }
+                    .bef-links{
+                        border: none;
+                        padding: 0;
+                        ul{
+                            padding: 0;
+                            list-style: none;
+                            max-height: 500px;
+                            overflow-y: scroll;
+                            overflow-x: hidden;
+                            li{
+                                a{
+                                    text-decoration: none;
+                                    color: $brand-red;
+                                    text-decoration: none;
+                                    padding: 10px 5px;
+                                    border-bottom: 1px solid $light-gray;
+                                    width: 100%;
+                                    display: block;
+                                    &#edit-category-2,
+                                    &#edit-category-3,
+                                    &#edit-category-4,
+                                    &#edit-category-79,
+                                    &#edit-category-80{
+                                        display: none;
+                                    }
+                                }
+                                &:last-child{
+                                    a{
+                                        border-bottom: none;
+                                    }
+                                }
+                            }
+                        }
+                        ul::-webkit-scrollbar-track{
+                            background-color: #F5F5F5;
+                        }
+                        ul::-webkit-scrollbar{
+                            width: 5px;
+                            background-color: #F5F5F5;
+                        }
+                        ul::-webkit-scrollbar-thumb{
+                            background-color: $brand-red;
+                            border: 1px solid $brand-pink;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #page-content {
+        #block-tekmens-content{
+            width: 100%;
+        }
+
+    }
+}
+
 // Resources
 .page-node-type-resource{
     #page-content{
