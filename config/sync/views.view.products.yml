@@ -996,6 +996,27 @@ display:
     display_plugin: page
     position: 1
     display_options:
+      pager:
+        type: full
+        options:
+          offset: 0
+          items_per_page: 0
+          total_pages: null
+          id: 0
+          tags:
+            next: ››
+            previous: ‹‹
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 5
       exposed_form:
         type: bef
         options:
@@ -1100,7 +1121,7 @@ display:
             group_items: {  }
           reduce_duplicates: false
           vid: category
-          type: textfield
+          type: shs
           hierarchy: false
           limit: true
           error_message: true
@@ -1119,6 +1140,7 @@ display:
         options: {  }
       defaults:
         use_ajax: false
+        pager: false
         exposed_form: false
         style: false
         row: false

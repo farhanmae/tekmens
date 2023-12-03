@@ -25,4 +25,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /products
+    pages: /products/construction_equipments
