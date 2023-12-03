@@ -29,6 +29,7 @@
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
         "drupal/country": "1.1",
+        "drupal/entity_print": "2.13",
         "drupal/entity_redirect": "2.2",
         "drupal/entityqueue": "1.6",
         "drupal/gin": "^3.0@RC",
@@ -51,8 +52,10 @@
         "drupal/vapn": "1.5",
         "drupal/webform": "^6.1",
         "drupal/webform_views": "5.1",
+        "mikehaertl/phpwkhtmltopdf": "~2.1",
         "npm-asset/select2": "^4.0",
-        "oomphinc/composer-installers-extender": "^2.0"
+        "oomphinc/composer-installers-extender": "^2.0",
+        "tecnickcom/tcpdf": "~6"
     },
     "conflict": {
         "drupal/drupal": "*"

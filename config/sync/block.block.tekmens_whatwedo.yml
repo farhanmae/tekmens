@@ -12,7 +12,7 @@ dependencies:
 id: tekmens_whatwedo
 theme: tekmens
 region: content
-weight: -3
+weight: -4
 provider: null
 plugin: 'block_content:4d8a2d02-01dc-47fc-9669-bd58af04ef19'
 settings:

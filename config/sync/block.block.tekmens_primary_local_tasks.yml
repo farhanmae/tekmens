@@ -9,7 +9,7 @@ _core:
 id: tekmens_primary_local_tasks
 theme: tekmens
 region: content
-weight: -18
+weight: -19
 provider: null
 plugin: local_tasks_block
 settings:

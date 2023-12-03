@@ -12,7 +12,7 @@ dependencies:
 id: tekmens_ourstory
 theme: tekmens
 region: content
-weight: -4
+weight: -5
 provider: null
 plugin: 'block_content:239cba96-2d20-42e1-a422-9cb9dae893f6'
 settings:

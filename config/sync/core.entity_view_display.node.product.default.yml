@@ -17,10 +17,14 @@ dependencies:
     - node.type.product
   module:
     - country
+    - entity_print
     - file
     - image
     - text
     - user
+third_party_settings:
+  entity_print:
+    pdf_label: 'View PDF'
 id: node.product.default
 targetEntityType: node
 bundle: product
@@ -101,5 +105,8 @@ content:
     weight: 0
     region: content
 hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
   field_category: true
   field_sector: true

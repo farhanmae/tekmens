@@ -114,6 +114,7 @@
           {{ content|without('field_image','field_brand','body','field_application','field_parameters','field_attachment') }}
           <div class="attachment">
             {{ drupal_view('product', 'attachment') }}
+            {# <a href="/print/view/pdf/print_view/page?view_args[]={{node.id}}"><button id="download">Generate PDF</button></a> #}
           </div>
         </div>
         <div class="col-12">
