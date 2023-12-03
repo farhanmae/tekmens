@@ -295,7 +295,7 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: 'col-6 col-md-4'
+          row_class: 'col-6 col-md-3'
           default_row_class: true
       row:
         type: fields
@@ -1108,15 +1108,26 @@ display:
         operator: AND
         groups:
           1: AND
+      style:
+        type: default
+        options:
+          grouping: {  }
+          row_class: 'col-6 col-md-4'
+          default_row_class: true
+      row:
+        type: fields
+        options: {  }
       defaults:
         use_ajax: false
         exposed_form: false
+        style: false
+        row: false
         filters: false
         filter_groups: false
       use_ajax: true
       exposed_block: true
       display_extenders: {  }
-      path: products
+      path: products/construction_equipments
     cache_metadata:
       max-age: -1
       contexts:

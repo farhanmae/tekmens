@@ -525,7 +525,7 @@ menus:
     menu_name: main
     title: 'Construction Equipments'
     parent: 'menu_link_content:021bf9e2-b31a-4928-b79c-de32de166c0b'
-    uri: 'internal:/category/construction-machinery-solutions'
+    uri: 'internal:/products/construction_equipments'
     link_title: ''
     description: null
     enabled: true
@@ -564,7 +564,7 @@ menus:
     uri: 'internal:/taxonomy/term/57'
     link_title: null
     description: null
-    enabled: true
+    enabled: false
     expanded: false
     weight: 0
     langcode: en
