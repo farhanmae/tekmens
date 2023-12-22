@@ -316,9 +316,6 @@
   color: #c6c9d8;
   font-family: "bootstrap-icons";
 }
-.page-node-type-page #page-content .block-views-blocksectors-block-1 .view-sectors .view-content .views-row:nth-child(even) .views-field-nothing .sector-wrapper .image {
-  order: 2;
-}
 .page-node-type-page #page-content .block-views-blocksectors-block-1 .view-sectors .view-content .views-row:nth-child(even) .views-field-nothing .sector-wrapper .edit-link {
   position: absolute;
   right: unset;
@@ -898,6 +895,23 @@
   font-weight: normal;
 }
 
+.page-node-28 #block-views-block-application-block-1 .view-application .view-content {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.page-node-28 #block-views-block-application-block-1 .view-application .view-content .views-row .views-field-field-gallery {
+  padding: 0 5px;
+  margin-bottom: 15px;
+}
+.page-node-28 #block-views-block-application-block-1 .view-application .view-content .views-row .views-field-field-gallery .field-content {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   #page-content #block-tekmens-content {
     width: 80%;
@@ -961,17 +975,24 @@
   .page-node-type-page #page-content #block-tekmens-ourstory .field--name-body {
     vertical-align: middle;
   }
-  .page-node-type-page #page-content .block-views-blocksectors-block-2 .view-sectors .view-content .views-row .views-field-nothing .sector-wrapper .image {
+  .page-node-type-page #page-content .block-views-blocksectors-block-1 .view-sectors .view-content .views-row .views-field-nothing .sector-wrapper .image {
     flex: 0 0 auto;
     width: 40%;
   }
-  .page-node-type-page #page-content .block-views-blocksectors-block-2 .view-sectors .view-content .views-row .views-field-nothing .sector-wrapper .text {
+  .page-node-type-page #page-content .block-views-blocksectors-block-1 .view-sectors .view-content .views-row .views-field-nothing .sector-wrapper .text {
     flex: 0 0 auto;
     width: 60%;
     padding: 30px 0;
   }
-  .page-node-type-page #page-content .block-views-blocksectors-block-2 .view-sectors .view-content .views-row:nth-child(even) .views-field-nothing .sector-wrapper .image {
-    order: unset;
+  .page-node-type-page #page-content .block-views-blocksectors-block-1 .view-sectors .view-content .views-row:nth-child(even) .views-field-nothing .sector-wrapper .image {
+    order: 2;
+  }
+  .page-node-28 #block-views-block-application-block-1 .view-application {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .page-node-28 #block-views-block-application-block-1 .view-application .view-content .views-row .views-field-field-gallery {
+    padding: 0 8px;
   }
   .page-node-14 #page-content #block-tekmens-content {
     width: 90%;

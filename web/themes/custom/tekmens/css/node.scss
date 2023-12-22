@@ -356,7 +356,7 @@
                                 .sector-wrapper{
                                     
                                     .image{
-                                        order: 2;
+                                        
                                     }
                                     .edit-link{
                                         position: absolute;
@@ -1062,6 +1062,31 @@
     }
 }
 
+.page-node-28{
+    #block-views-block-application-block-1{
+        .view-application{
+            .view-content{
+                --bs-gutter-x: 1.5rem;
+                --bs-gutter-y: 0;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: calc(-1 * var(--bs-gutter-y));
+                margin-right: calc(-0.5 * var(--bs-gutter-x));
+                margin-left: calc(-0.5 * var(--bs-gutter-x));
+                .views-row{
+                    .views-field-field-gallery{
+                        padding: 0 5px;
+                        margin-bottom: 15px;
+                        .field-content{
+                            text-align: center; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (min-width: 768px) {
     #page-content {
         #block-tekmens-content{
@@ -1155,7 +1180,7 @@
                     vertical-align: middle;
                 }
             }
-            .block-views-blocksectors-block-2{
+            .block-views-blocksectors-block-1{
                 .view-sectors{
                     .view-content{
                         .views-row{
@@ -1176,11 +1201,26 @@
                                 .views-field-nothing{
                                     .sector-wrapper{
                                         .image{
-                                            order: unset;
+                                            order: 2;
                                         }
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page-node-28{
+        #block-views-block-application-block-1{
+            .view-application{
+                width: 80%;
+                margin: 0 auto;
+                .view-content{
+                    .views-row{
+                        .views-field-field-gallery{
+                            padding: 0 8px;
                         }
                     }
                 }

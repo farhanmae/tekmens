@@ -1,0 +1,15 @@
+uuid: d0dfffaf-1f6a-43d4-91b7-38c141837cb5
+langcode: en
+status: true
+dependencies: {  }
+name: application
+label: 'Application (480x320)'
+effects:
+  1511a026-fc82-433f-be31-244540935b4a:
+    uuid: 1511a026-fc82-433f-be31-244540935b4a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 320
+      anchor: center-center

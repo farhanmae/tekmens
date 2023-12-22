@@ -272,9 +272,6 @@
   color: #c6c9d8;
   font-family: "bootstrap-icons";
 }
-#page-front .block-views-blocksectors-block-2 .view-sectors .view-content .views-row:nth-child(even) .views-field-nothing .sector-wrapper .image {
-  order: 2;
-}
 #page-front .block-views-blocksectors-block-2 .view-sectors .view-content .views-row:nth-child(even) .views-field-nothing .sector-wrapper .edit-link {
   position: absolute;
   right: unset;
@@ -514,6 +511,6 @@
     padding: 30px 0;
   }
   #page-front .block-views-blocksectors-block-2 .view-sectors .view-content .views-row:nth-child(even) .views-field-nothing .sector-wrapper .image {
-    order: unset;
+    order: 2;
   }
 }/*# sourceMappingURL=front.css.map */

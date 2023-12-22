@@ -244,6 +244,327 @@ blocks:
           title: ''
           width: '320'
           height: '495'
+  -
+    info: Application
+    langcode: en
+    uuid: f8a50a93-9240-450b-97ae-e6747b9e8713
+    bundle: image_gallery
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_gallery:
+        -
+          target_id: '85'
+          alt: ''
+          title: 'Concrete formwork vibration motor'
+          width: '1000'
+          height: '750'
+        -
+          target_id: '86'
+          alt: ''
+          title: 'Bunker feeding vibration motor'
+          width: '750'
+          height: '1000'
+        -
+          target_id: '87'
+          alt: ''
+          title: 'Ore Enrichment Vibration Engine'
+          width: '800'
+          height: '600'
+        -
+          target_id: '88'
+          alt: ''
+          title: 'Ore Enrichment Vibromotor'
+          width: '750'
+          height: '1000'
+        -
+          target_id: '89'
+          alt: ''
+          title: 'Walnut Sieve Vibro Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '90'
+          alt: ''
+          title: 'Double-deck sieve vibration motor'
+          width: '654'
+          height: '1000'
+        -
+          target_id: '91'
+          alt: ''
+          title: 'Coal Sieve Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '92'
+          alt: ''
+          title: 'Multi-deck peanut sieving vibromotor'
+          width: '750'
+          height: '1000'
+        -
+          target_id: '93'
+          alt: ''
+          title: 'Multi-deck peanut sieving vibromotor'
+          width: '750'
+          height: '1000'
+        -
+          target_id: '94'
+          alt: ''
+          title: 'Dust Absorber Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '95'
+          alt: ''
+          title: 'Peanut sieving vibration motor'
+          width: '750'
+          height: '1000'
+        -
+          target_id: '96'
+          alt: ''
+          title: 'Nut Sieve Vibro Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '97'
+          alt: ''
+          title: 'Apricot Sieve Vibrator Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '98'
+          alt: ''
+          title: 'Coal sieving vibration motor'
+          width: '750'
+          height: '1000'
+        -
+          target_id: '99'
+          alt: ''
+          title: 'Precast mold vibration motor'
+          width: '1000'
+          height: '750'
+        -
+          target_id: '100'
+          alt: ''
+          title: 'Silo Unloader Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '101'
+          alt: ''
+          title: 'Nut longitudinal vibration motor'
+          width: '750'
+          height: '1000'
+        -
+          target_id: '102'
+          alt: ''
+          title: 'Food Silo Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '103'
+          alt: ''
+          title: 'Dewatering vibration motor'
+          width: '804'
+          height: '1000'
+        -
+          target_id: '104'
+          alt: ''
+          title: 'Grain Sieve Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '105'
+          alt: ''
+          title: 'Grain Sieve Vibrator Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '106'
+          alt: ''
+          title: 'Stone separator vibration motor'
+          width: '1000'
+          height: '750'
+        -
+          target_id: '107'
+          alt: ''
+          title: 'Separation Sieve Vibro Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '108'
+          alt: ''
+          title: 'Stone Crushing Screening Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '109'
+          alt: ''
+          title: 'Stone crushing screening vibro motor'
+          width: '750'
+          height: '1000'
+        -
+          target_id: '110'
+          alt: ''
+          title: 'Stone crushing screening vibro motor'
+          width: '828'
+          height: '464'
+        -
+          target_id: '111'
+          alt: ''
+          title: 'Susuzlandırma vibro motoru'
+          width: '750'
+          height: '1000'
+        -
+          target_id: '112'
+          alt: ''
+          title: 'Cement Silo Vibrator Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '113'
+          alt: ''
+          title: 'Vibrating Screen Vibrator Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '114'
+          alt: ''
+          title: 'Corn Sieve Vibrator'
+          width: '800'
+          height: '600'
+        -
+          target_id: '115'
+          alt: ''
+          title: 'Metal Screening Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '116'
+          alt: ''
+          title: 'Wheat Sieve Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '117'
+          alt: ''
+          title: 'Grading Machine Vibro Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '118'
+          alt: ''
+          title: 'Starch Sieve Vibromotor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '119'
+          alt: ''
+          title: 'Mining Sieve Vibrating Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '120'
+          alt: ''
+          title: 'Dust Extraction Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '121'
+          alt: ''
+          title: 'Dewatering Sieve Shaking Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '122'
+          alt: ''
+          title: 'Nut Bolt Sieve Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '123'
+          alt: ''
+          title: 'Silo Discharger Vibromotor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '124'
+          alt: ''
+          title: 'Dewatering Sieve Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '125'
+          alt: ''
+          title: 'Coal Enrichment Sieve Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '126'
+          alt: ''
+          title: 'Cement Silo Vibromotor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '127'
+          alt: ''
+          title: 'Food Sieve Vibration'
+          width: '800'
+          height: '600'
+        -
+          target_id: '128'
+          alt: ''
+          title: 'Peanut Sieve Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '129'
+          alt: ''
+          title: 'Ore Enrichment Vibromotor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '130'
+          alt: ''
+          title: 'Mud Sieve Viper Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '131'
+          alt: ''
+          title: 'Pasta Sieve Vibromotor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '132'
+          alt: ''
+          title: 'Apple Slicer Grading Machine Vibromotor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '133'
+          alt: ''
+          title: 'Bolt Lengthening Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '134'
+          alt: ''
+          title: 'Dewatering Sieve Vibrating Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '135'
+          alt: ''
+          title: 'Stone Crushing Screening Vibration Motor'
+          width: '800'
+          height: '600'
+        -
+          target_id: '136'
+          alt: ''
+          title: 'Surface treatment vibration motor'
+          width: '828'
+          height: '599'
 menus:
   -
     menu_name: main
