@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.sector.body
+    - field.field.node.sector.field_image
+    - image.style.thumbnail
     - node.type.sector
   module:
+    - image
     - path
     - text
 id: node.sector.default
@@ -28,6 +31,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 122
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
   path:
     type: path
@@ -73,5 +84,10 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden: {  }

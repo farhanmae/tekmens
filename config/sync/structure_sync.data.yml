@@ -14,11 +14,11 @@ blocks:
           format: basic_html
       field_image:
         -
-          target_id: '1'
+          target_id: '82'
           alt: ''
           title: ''
-          width: '2000'
-          height: '2000'
+          width: '1024'
+          height: '864'
   -
     info: 'What We Do'
     langcode: en
