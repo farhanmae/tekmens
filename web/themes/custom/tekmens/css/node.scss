@@ -879,7 +879,7 @@
                         ul{
                             padding: 0;
                             list-style: none;
-                            max-height: 500px;
+                            max-height: 150px;
                             overflow-y: scroll;
                             overflow-x: hidden;
                             li{
@@ -1144,6 +1144,21 @@
     .page-node-type-product{
         #page-content{
             
+        }
+    }
+    .path-products{
+        #page-sidebar{
+            .block-views-exposed-filter-blockproducts-page-1{
+                #views-exposed-form-products-page-1{
+                    .form-item-category{
+                        .bef-links{
+                            ul{
+                                max-height: 500px;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

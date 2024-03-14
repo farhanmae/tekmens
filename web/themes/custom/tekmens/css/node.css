@@ -745,7 +745,7 @@
 .path-products #page-sidebar .block-views-exposed-filter-blockproducts-page-1 #views-exposed-form-products-page-1 .form-item-category .bef-links ul {
   padding: 0;
   list-style: none;
-  max-height: 500px;
+  max-height: 150px;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -949,6 +949,9 @@
   }
   .page-node-14 #page-content #block-tekmens-content {
     width: 100%;
+  }
+  .path-products #page-sidebar .block-views-exposed-filter-blockproducts-page-1 #views-exposed-form-products-page-1 .form-item-category .bef-links ul {
+    max-height: 500px;
   }
 }
 @media (min-width: 992px) {

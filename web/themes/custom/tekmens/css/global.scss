@@ -1,5 +1,20 @@
 @import 'variables';
 
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/loading.gif) center no-repeat #000;
+}
+
 body,
 h1,h2,h3,h4,h5,h6,span,div{
     font-family: $font !important;
@@ -393,7 +408,7 @@ header{
 
 // Resource Menu
 .navigation.menu--resources{
-    text-align: center;
+    text-align: left;
     margin-left: 0;
     margin-top: 15px;
     ul.nav{
@@ -401,6 +416,7 @@ header{
         display: block;
         .nav-item{
             display: inline-block;
+            margin-bottom: 5px;
             a{
                 padding: 4px 8px;
                 background-color: $light-gray;
@@ -584,6 +600,9 @@ header{
 }
 
 @media (min-width: 768px) { 
+    .navigation.menu--resources{
+        text-align: center;
+    }
     .navbar-brand {
         .animation{
             .logo-top{

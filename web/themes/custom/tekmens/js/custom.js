@@ -1,4 +1,9 @@
 (function($, Drupal) {
+    $(window).ready(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+
     // Make header sticky on scroll
     $(window).scroll(function() {
         var sticky = $('header#header-brand'),
