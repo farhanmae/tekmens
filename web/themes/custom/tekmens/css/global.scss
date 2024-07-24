@@ -60,6 +60,7 @@ header{
     // background-color: $brand-dark-gray;
     // border-bottom: 1px solid $border;
     z-index: 20;
+    background-color: rgba(0,0,0,0.75);
     .collapse:not(.show) {
         display: none !important;
     }
