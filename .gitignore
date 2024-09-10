@@ -9,10 +9,10 @@
 
 # Ignore core when managing all of a project's dependencies with Composer
 # including Drupal core.
-/web/core/
-web/modules/
-web/themes/contrib/
-/web/profiles/contrib/
+core/
+modules/contrib
+themes/contrib/
+profiles/contrib/
 
 # Ignore dependencies that are managed with Composer.
 # Generally you should only ignore the root vendor directory. It's important
@@ -21,15 +21,16 @@ web/themes/contrib/
 vendor/
 
 # Ignore configuration files that may contain sensitive information.
-web/sites/*/settings*.php
-web/sites/*/services*.yml
+sites/*/settings*.php
+sites/*/services*.yml
+sites/
 
 # Ignore paths that contain user-generated content.
-web/sites/*/files
-web/sites/*/private
+sites/*/files
+sites/*/private
 
 # Ignore SimpleTest multi-site environment.
-web/sites/simpletest
+sites/simpletest
 
 # If you prefer to store your .gitignore file in the sites/ folder, comment
 # or delete the previous settings and uncomment the following ones, instead.
@@ -43,3 +44,20 @@ web/sites/simpletest
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
+.htaccess
+sites/default/default.settings.php
+.gitattributes
+.csslintrc
+.eslintignore
+.eslintrc.json
+.ht.router.php
+INSTALL.txt
+README.md
+example.gitignore
+index.php
+robots.txt
+update.php
+web.config
+.editorconfig
+.gitignore
+/autoload.php
